@@ -51,7 +51,7 @@ python3 kmtricks.py run \
 
 **Computation time**
 
-1 day, 19h, 51minutes. 
+1 day, 19h, 51m. 
 
 **Ressources:** 
 
@@ -65,7 +65,7 @@ Determine the tree topology (less than a minute)
 
 ```bash 
 ls kmtricks0_0_1_metag_bact_tara/storage/vectors/howde/*.bf >  list_bf.txt
-kmtricks/bin/howdesbt cluster list_bf.txt --nocull --out=cluster_tara 10000000..20000000
+kmtricks/bin/howdesbt cluster list_bf.txt --cull --out=cluster_tara 10000000..20000000
 ```
 
 `
@@ -73,11 +73,11 @@ Note that we do not compute the tree topology using the first bits of the bloom 
 
 `kmtricks/bin/howdesbt build --howde cluster_tara`
 
-- Computation Time: RUNNING
-- Max Disk Used: RUNNING
-- Max Mem Used: RUNNING
-- Size Directory: RUNNING
-- Directory contains RUNNING bf files and one sbt file
+- Computation Time: 1 day 17h, 38m
+- Max Disk Used: 0.66 TB
+- Max Mem Used: 162 GB
+- Size Directory: 612 GB
+- Directory contains 467 bloom filters files and one sbt file.
 
 
 
@@ -95,15 +95,7 @@ zcat /ccc/store/cont007/fg0001/fg0001/rawdata/projet_APY/AAAI/RunsSolexa/110712_
 ~/kmtricks_3a3426f/bin/howdesbt queryKm --tree=cluster_tara.detbrief.sbt --repart=minimRepart.minimRepart --win=hash_window.vec random1000.fa
 ```
 
-Time: 
+Query time is 19 minutes. 
 
-real	todo
-user	todo
-sys	todo
-
-[Result file](https://gitlab.inria.fr/ppeterlo/kmtricks_tara/-/blob/master/expe/TODO)
-
-Most found read sets: 
-
-TODO
+Result file: [query1000.txt](query1000.txt)
 
