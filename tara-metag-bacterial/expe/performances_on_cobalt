@@ -1,0 +1,39 @@
+# Comparing scratchdir versus /dev/shm
+## sizes:
+- scratchdir 70TB 
+- /dev/shm of one of the xlarge computers: 4TB
+
+## Speed:
+### IO test: 
+Write: sync; dd if=/dev/zero of=tempfile bs=1M count=1024; sync
+Read: dd if=tempfile of=/dev/null bs=1M count=1024
+**scratch**
+cd $CCCSCRATCHDIR
+Write: 1.0 GB/s
+Read: 4.8 GB/s
+**/dev/shm du noeud xlarge cobalt8001**
+cd /dev/shm
+Write: 2.2 GB/s
+Read: 4.8 GB
+
+### First Tara station: 
+Estimated number of kmers (k=20):
+```
+F1 33804887430
+F0 8719037639
+1 3969188031
+2 2362922384
+```
+
+Run kmtrics until count. 
+```bash
+kmtricks.py run --file 65DCM0CCKK11.list  --kmer-size 20 --until count --lz4 --run-dir small_kmtricks
+```
+- with run dir on /dev/shm: 2470 sec
+- with run dir on scratch: 2584 sec
+
+kmer partition size: 24GB.
+
+### 100 RNA seq data
+599 seconds (35 minutes on genouest)
+
