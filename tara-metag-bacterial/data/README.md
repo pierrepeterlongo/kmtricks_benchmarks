@@ -25,6 +25,20 @@ Result [all_bact_metaG_20_mers_k20.hist](all_bact_metaG_20_mers_k20.hist).
 
 In short, there are about 266 billion distinct kmers, among which 174 billion occur twice or more. 
 
+
+
+### kmer spectrum for all reads
+
+spectrum generated with [plot_histo.R](plot_histo.R)
+
+![kmer_spectrum_all_stations.png](kmer_spectrum_all_stations.png)
+
+### kmer spectrum for one station. 
+
+Chosen randomly: station 76_sur_CCKK.
+
+![kmer_spectrum_76_sur_CCKK.png](kmer_spectrum_76_sur_CCKK.png)
+
 ### Estimation per station:
 
 Results: [estimated_kmer_counts_metaG_bact](estimated_kmer_counts_metaG_bact)
