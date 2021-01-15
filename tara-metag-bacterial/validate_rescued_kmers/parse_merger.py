@@ -154,7 +154,6 @@ def overlaid_histogram(data1, data2, n_bins = 0, data1_name="", data1_color="#53
     ax.set_ylabel(y_label)
     ax.set_xlabel(x_label)
     ax.set_title(title)
-    plt.axvline(x=1, ymin=0, ymax=30, label = "best value (x=1)")
     ax.legend(loc = 'best')
     plt.show() 
 
