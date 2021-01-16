@@ -13,7 +13,7 @@ rm fof_${m}.txt &> /dev/null
 while read -r exp;
 do
   IFS=" " read name cutoff <<< "$exp"
-  if [[ -f "${p}/${name}.fasta.gz" ]]; then
+  if [[ ! -f "${p}/${name}.fasta.gz" ]]; then
     echo "Error: ${p}/${name}.fasta.gz does not exists !"
     break
   fi

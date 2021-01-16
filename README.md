@@ -1,14 +1,15 @@
 # Benchmarks kmtricks
 
-This directory synthetises the analyses and results obtained by kmtricks, as described in the paper "*kmtricks: Efficient  construction of Bloom filters and kmer matrices for large sequencing  data collections*"
+This directory synthetises the analyses and results obtained by kmtricks, as described in the paper "*kmtricks: Efficient  construction of Bloom filters and kmer matrices for large sequencing data collections*"
 
 ## Environment
 
 ```bash
 conda env create -p km_reproduce --file environment.yml
 ```
+COBS is not available on Conda, installation from the [repository](https://github.com/bingmann/cobs).
 
-## RNA-seq experiements
+## RNA-seq experiments
 
 - see [rna-seq](https://github.com/pierrepeterlongo/kmtricks_benchmarks/tree/master/rna-seq) directory
 

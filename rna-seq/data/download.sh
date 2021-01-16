@@ -12,7 +12,7 @@ fi
 while read -r exp;
 do
   if [[ ! -f "./fastq/${exp}.fasta.gz" ]]; then
-    parallel-fastq-dump --sra-id ${exp} --threads 8 --outdir ./fasta --gzip --fasta
+    parallel-fastq-dump --sra-id ${exp} --threads 8 --outdir ./fasta --gzip --fasta 0
   fi
   let "c++"
   if (( $c == $m )); then

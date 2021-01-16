@@ -5,7 +5,6 @@ in_fof=$1
 for fullfile in `cat ${in_fof}`; do  
   file=`basename $fullfile`; 
   base=`echo $file | cut -d "." -f 1 `; 
-  echo ${base};  
   zcat $fullfile \ 
   | jellyfish count --mer-len=20 --canonical --size=3G --lower-count=2 --threads=20 /dev/stdin --output=/dev/stdout \ 
   | jellyfish dump --column --lower-count=2 /dev/stdin \
