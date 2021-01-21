@@ -32,7 +32,7 @@ while read y; do
     echo $files 2>&1
 	
     zcat $files | \
-    /ccc/cont007/home/fg0001/peterlop/jellyfish-linux count \ --mer-len=20 \
+    /ccc/cont007/home/fg0001/peterlop/jellyfish-linux count --mer-len=20 \
       --canonical --size=4G --lower-count=1 --threads=60 /dev/stdin --output=/dev/stdout | \
     /ccc/cont007/home/fg0001/peterlop/jellyfish-linux dump --column --lower-count=1 /dev/stdin   | \
     awk '{ print $1 }' | \
