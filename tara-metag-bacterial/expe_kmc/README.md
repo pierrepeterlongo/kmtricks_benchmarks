@@ -37,7 +37,7 @@ for file in data/*.fof;
 done
 ```
 
-The directory `data`contains 241 file of file. Each file of file corresponds to one sample and contains read file names (fastq.gz).
+The directory `data`contains 241 file of files. Each file of file corresponds to one sample and contains read file names (fastq.gz).
 
 **Computation time**
 
