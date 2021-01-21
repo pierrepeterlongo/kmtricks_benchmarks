@@ -41,7 +41,8 @@ The directory `data`contains 241 file of files. Each file of file corresponds to
 
 **Computation time**
 
-Because of high computation times, we stopped the processes after 83 bloom filters, leading to 49h computations.
+Because of high computation times, we stopped the processes after 83 bloom filters, leading to 49h computations. 
+Based on this observation, and knowing that samples are not sorted by size or complexity, we estimate that for the 241 input samples, `kmc + howdesbt` would require more than 142h for generating the 241 bloom filters. 
 
 **Ressources:** 
 
