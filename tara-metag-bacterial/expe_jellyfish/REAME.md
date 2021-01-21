@@ -33,8 +33,8 @@ while read y; do
 	
     zcat $files | \
     /ccc/cont007/home/fg0001/peterlop/jellyfish-linux count \ --mer-len=20 \
-      --canonical --size=4G --lower-count=1 --threads=${threads} /dev/stdin --output=/dev/stdout | \
-    /ccc/cont007/home/fg0001/peterlop/jellyfish-linux dump --column --lower-count=1 /dev/stdin   | \
+      --canonical --size=4G --lower-count=2 --threads=60 /dev/stdin --output=/dev/stdout | \
+    /ccc/cont007/home/fg0001/peterlop/jellyfish-linux dump --column --lower-count=2 /dev/stdin   | \
     awk '{ print $1 }' | \
     ./howdesbt makebf /dev/stdin --kmersin K=20 --bits=4G --out=${name}.bf 
 done < bact_metaG_factorized.list
