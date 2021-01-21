@@ -31,7 +31,7 @@ for file in data/*.fof;
         echo ${name}; 
         ./kmc -t60 -k20 -cs2 -m256 @${file} ${name}_res .
      ./kmc_dump ${name}_res /dev/stdout | awk '{print $1}' \
-     | ./howdesbt makebf /dev/stdin --kmersin K=20 --bits=4G --out=${name}.bf
+     | ./howdesbt makebf /dev/stdin --kmersin K=20 --bits=40000000000 --out=${name}.bf
      rm -f ${name}_res_pre
      rm -f ${name}_res_suf
 done
