@@ -51,7 +51,7 @@ python3 kmtricks.py run \
 
 **Computation time**
 
-1 day, 19h, 51m. 
+1 day, 15h, 34m. 
 
 **Ressources:** 
 
