@@ -26,38 +26,29 @@ Here we removed kmers seen once
 We generated bloom filters composed of 4 billion bits each. 
 
 ```bash
-while read y; do  
-    files=`echo $y |cut -f 2- -d ":" | tr ";" " ";`
-		date
-    echo $files 2>&1
-	
-    zcat $files | \
-    /ccc/cont007/home/fg0001/peterlop/jellyfish-linux count --mer-len=20 \
-      --canonical --size=4G --lower-count=1 --threads=60 /dev/stdin --output=/dev/stdout | \
-    /ccc/cont007/home/fg0001/peterlop/jellyfish-linux dump --column --lower-count=1 /dev/stdin   | \
-    awk '{ print $1 }' | \
-    ./howdesbt makebf /dev/stdin --kmersin K=20 --bits=40000000000 --out=${name}.bf 
-done < bact_metaG_factorized.list
+while read y; do 
+    name=`echo $y |cut -f 1 -d ":"`;   
+    name=`echo $name | sed 's/ *$//g'` # trim
+    files=`echo $y |cut -f 2- -d ":" | tr ";" " ";`; 
+    date;  
+    echo $name; 
+    zcat $files | \ 
+	/ccc/cont007/home/fg0001/peterlop/jellyfish-linux count --mer-len=20 --canonical --size=4G --lower-count=1 --threads=60 /dev/stdin --output=/dev/stdout | \
+	/ccc/cont007/home/fg0001/peterlop/jellyfish-linux dump --column --lower-count=1 /dev/stdin   |  \
+	awk '{ print $1 }' | \
+	./howdesbt makebf /dev/stdin --kmersin K=20 --bits=40000000000 --out=${name}.bf 
+    done < bact_metaG_factorized.list
 ```
 
 **Computation time**
 
-Because of high computation times, we stopped the processes after XX bloom filters, leading to XXh computations.
+Because of high computation times, we stopped the processes after 10 bloom filters, leading to 9h44 of computations.
 
 **Ressources:** 
 
-disk used XX GB - including XXGB of created bloom filters
+disk used 1.1 TB (created bloom filters only, no intermediate disk is used during computation).
 
-max memory  XXGB.
-
-
-
-**Details about ressources needed:** 
-
-- `jellyfish` time: 
-- `jellyfish` temp disk size:
-- `kmc_dump | howdesbt makebf` time: 
-  - avg: XXX seconds
+max memory  82GB.
 
 **Logs**
 Computation times, number of kmers, disk used: [XXX](XXX)
