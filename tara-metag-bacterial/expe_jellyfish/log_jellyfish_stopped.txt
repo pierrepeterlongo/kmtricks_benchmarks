@@ -1,0 +1,179 @@
+start,977525
+Fri Jan 22 13:49:01 CET 2021
+64SUR0CCKK11
+Fri Jan 22 15:02:08 CET 2021
+64DCM0CCKK11
+Fri Jan 22 16:06:12 CET 2021
+64MES0CCKK11
+Fri Jan 22 16:39:32 CET 2021
+65SUR0CCKK11
+Fri Jan 22 17:19:04 CET 2021
+65DCM0CCKK11
+Fri Jan 22 18:27:32 CET 2021
+65MES0CCKK11
+Fri Jan 22 19:30:56 CET 2021
+66SUR0CCKK11
+Fri Jan 22 20:14:54 CET 2021
+66DCM0CCKK11
+Fri Jan 22 20:44:00 CET 2021
+67SUR0CCKK11
+Fri Jan 22 21:07:36 CET 2021
+68SUR0CCKK11
+Fri Jan 22 21:48:08 CET 2021
+68DCM0CCKK11
+Fri Jan 22 22:25:49 CET 2021
+68MES0CCKK11
+Fri Jan 22 23:20:17 CET 2021
+70SUR0CCKK11
+Sat Jan 23 00:01:30 CET 2021
+70MES0CCKK11
+Sat Jan 23 00:44:19 CET 2021
+76SUR0CCKK11
+Sat Jan 23 01:57:16 CET 2021
+76DCM0CCKK11
+Sat Jan 23 03:05:23 CET 2021
+76MES0CCKK11
+Sat Jan 23 04:07:28 CET 2021
+78SUR0CCKK11
+Sat Jan 23 05:16:15 CET 2021
+78DCM0CCKK11
+Sat Jan 23 06:30:06 CET 2021
+78MES0CCKK11
+Sat Jan 23 07:39:01 CET 2021
+4SUR1CCII11
+Sat Jan 23 08:21:55 CET 2021
+4DCM0CCII11
+Sat Jan 23 09:14:23 CET 2021
+18SUR0CCII11
+Sat Jan 23 09:58:12 CET 2021
+18DCM0CCII11
+Sat Jan 23 10:39:20 CET 2021
+25SUR0CCII11
+Sat Jan 23 11:26:15 CET 2021
+25DCM0CCII11
+Sat Jan 23 12:11:24 CET 2021
+31SUR1CCII11
+Sat Jan 23 12:53:40 CET 2021
+32SUR0CCII11
+Sat Jan 23 13:35:02 CET 2021
+32DCM0CCII11
+Sat Jan 23 14:26:08 CET 2021
+33SUR0CCII11
+Sat Jan 23 14:53:56 CET 2021
+34SUR0CCII11
+Sat Jan 23 15:24:36 CET 2021
+34DCM0CCII11
+Sat Jan 23 16:26:51 CET 2021
+36SUR0CCII11
+Sat Jan 23 16:53:20 CET 2021
+36DCM0CCII11
+Sat Jan 23 17:33:01 CET 2021
+37MES00CCII11
+Sat Jan 23 18:15:29 CET 2021
+38SUR0CCII11
+Sat Jan 23 18:49:11 CET 2021
+38DCM0CCII11
+Sat Jan 23 19:32:35 CET 2021
+38OMZ1CCII11
+Sat Jan 23 19:56:29 CET 2021
+41SUR0CCII11
+Sat Jan 23 20:43:00 CET 2021
+41DCM0CCII11
+Sat Jan 23 21:30:48 CET 2021
+42SUR0CCII11
+Sat Jan 23 22:11:17 CET 2021
+42DCM0CCII11
+Sat Jan 23 22:54:55 CET 2021
+45SUR0CCII11
+Sat Jan 23 23:33:26 CET 2021
+48SUR0CCII11
+Sun Jan 24 00:19:49 CET 2021
+52SUR0CCII11
+Sun Jan 24 01:01:43 CET 2021
+52DCM0CCII11
+Sun Jan 24 01:49:12 CET 2021
+72SUR0CCKK11
+Sun Jan 24 02:47:32 CET 2021
+72DCM0CCKK11
+Sun Jan 24 03:34:21 CET 2021
+72MES0CCKK11
+Sun Jan 24 04:21:20 CET 2021
+82SUR0CCKK11
+Sun Jan 24 04:50:04 CET 2021
+82DCM0CCKK11
+Sun Jan 24 05:29:24 CET 2021
+84SUR0CCKK11
+Sun Jan 24 06:11:15 CET 2021
+85SUR0CCKK11
+Sun Jan 24 06:41:00 CET 2021
+85DCM0CCKK11
+Sun Jan 24 07:17:34 CET 2021
+85MES0CCKK11
+Sun Jan 24 08:09:18 CET 2021
+98SUR0CCKK11
+Sun Jan 24 08:36:45 CET 2021
+98DCM0CCKK11
+Sun Jan 24 09:14:29 CET 2021
+98MES0CCKK11
+Sun Jan 24 10:16:09 CET 2021
+100SUR0CCKK11
+Sun Jan 24 10:53:48 CET 2021
+100DCM0CCKK11
+Sun Jan 24 11:37:02 CET 2021
+100MES0CCKK11
+Sun Jan 24 12:15:17 CET 2021
+102SUR0CCKK11
+Sun Jan 24 12:52:38 CET 2021
+102DCM0CCKK11
+Sun Jan 24 13:43:52 CET 2021
+102MES0CCKK11
+Sun Jan 24 14:28:20 CET 2021
+109SUR0CCKK11
+Sun Jan 24 15:09:51 CET 2021
+109DCM0CCKK11
+Sun Jan 24 15:52:42 CET 2021
+109MES0CCKK11
+Sun Jan 24 16:39:13 CET 2021
+39MES01CCII11
+Sun Jan 24 17:05:20 CET 2021
+39DCM0IIQQ11
+Sun Jan 24 18:08:39 CET 2021
+38MES01CCII11
+Sun Jan 24 18:45:54 CET 2021
+110SUR0CCKK11
+Sun Jan 24 19:25:38 CET 2021
+110DCM0CCKK11
+Sun Jan 24 20:21:37 CET 2021
+110MES0CCKK11
+Sun Jan 24 21:08:03 CET 2021
+111SUR0CCKK11
+357406624	/ccc/scratch/cont007/fg0001/peterlop/tara_metaG_bact_kmtricks/jellyfish_analyse2
+************ disk used ( KB ) 356429099 *******************
+************ max memory ( KB ) 85523556 ********************
+########## ########## ########## ########## ########## ########## ########## ##########
+Execution Sum Up
+########## ########## ########## ########## ########## ########## ########## ##########
+Jobid     : 5898625
+Jobname   : jellyfish_metag_bact_tara
+User      : peterlop
+Account   : fg0001@xlarge
+Limits    : time = 20-00:00:00 , memory/task = 48000 Mo
+Date      : submit = 22/01/2021 13:47:58 , start = 22/01/2021 13:48:58 , end = 11/02/2021 13:48:58
+Execution : partition = xlarge , QoS = nolimit , Comment = (null)
+Resources : ntasks = 1 , cpus/task = 64 , ncpus = 64 , nodes = 1
+   Nodes=cobalt8001 CPU_IDs=0-63 Mem=3072000 GRES_IDX=
+ 
+Memory / step 
+--------------
+                          Resident Size (Mo)                     Virtual Size (Go)
+JobID            Max     (Node:Task)       AveTask    Max  (Node:Task)            AveTask
+-----------      ------------------------  -------    --------------------------  -------
+
+Accounting / step 
+------------------
+
+JobID           JobName                  Ntasks  Ncpus Nnodes  Layout       Elapsed               User         System     Eff  State
+------------    ------------             ------  ----- ------  -------      -------               -------      ------     ---  -----
+5898625         jellyfish_metag_bact_ta+      -     64      1        -   2-07:19:32   (100%)            -            -      -  -
+5898625.0       disk_mem_count.sh             1     64      1   BBlock   2-07:19:24  (99.9%)  22-13:54:33   1-19:24:40   16.5  COMPLETED
+########## ########## ########## ########## ########## ########## ########## ##########
