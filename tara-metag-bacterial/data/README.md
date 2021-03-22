@@ -68,7 +68,7 @@ kmtricks proposes a way to save in a dataset a kmer whose coverage is in a range
 Note that in a dataset, a kmer seen more than $t$ times is conserved. 
 
 We propose to compute for each set  this threshold $t$ as the smallest value $\geq 1$ such that the number of canonical kmers occurring t times is smaller
-than 10% of the total number of canonical kmers. We use ntcard results for computing such thresholds.
+than 10% of the total number of canonical kmers. kmtricks automatically performs this computation with option `--merge-abundance-min 0.1`.
 
 Results file: [upper_rare_kmer_thresholds_10_percent.txt](upper_rare_kmer_thresholds_10_percent.txt)
 
