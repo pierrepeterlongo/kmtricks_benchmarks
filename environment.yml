@@ -13,4 +13,5 @@ dependencies:
   - kmtricks==0.0.1
   - squeakr==0.6
   - mantis==0.2
+  - metagraph==0.1.0
   - kmc

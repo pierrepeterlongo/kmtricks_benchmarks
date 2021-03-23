@@ -2,15 +2,16 @@
 
 in_fof=$1
 
-for fullfile in `cat ${in_fof}`; do  
-  file=`basename $fullfile`; 
-  base=`echo $file | cut -d "." -f 1 `; 
-  zcat $fullfile \ 
-  | jellyfish count --mer-len=20 --canonical --size=3G --lower-count=2 --threads=20 /dev/stdin --output=/dev/stdout \ 
-  | jellyfish dump --column --lower-count=2 /dev/stdin \
+while read -r exp;
+do
+  IFS=" " read file cutoff <<< "$exp"
+  base="$(basename -- $file)"
+  zcat $file \ 
+  | jellyfish count --mer-len=20 --canonical --size=3G --lower-count=${cutoff} --threads=20 /dev/stdin --output=/dev/stdout \ 
+  | jellyfish dump --column --lower-count=${cutoff} /dev/stdin \
   | awk '{ print $1 }' \ 
   | howdesbt makebf /dev/stdin --kmersin K=20 --bits=2G --out=${base}.bf
-done 
+done < ${in_fof}
 
 ls *.bf > filterlist
 
