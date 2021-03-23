@@ -1,7 +1,7 @@
 #!/bin/bash
 
 in_fof=$1
-mdkir ./tmp
+mkdir ./tmp
 while read -r exp;
 do
   IFS=" " read file cutoff <<< "$exp"
