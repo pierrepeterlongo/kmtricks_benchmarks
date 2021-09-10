@@ -23,41 +23,38 @@ Here we conserved all kmers from all dataset, before to filter the low abundant 
 We generated bloom filters composed of 4 billion bits each. 
 
 ```bash
-python3 kmtricks.py run \
-  --file bact_metaG_factorized.list \ # A corresponds to the bact_metag_tara.txt file as provided in data
+kmtricks pipeline \
+  --file bact_metaG_factorized.list \
   --kmer-size 20 \
-  --run-dir kmtricks0_0_1_metag_bact_tara \
+  --run-dir ${BRIDGE_MSUB_PWD}/kmtricks2_metag_bact_tara_with_rescue \
   --count-abundance-min 1 \
-  --max-count 256 \
-  --max-memory 8000 \
-  --mode bf_trp \
-  --nb-cores 60 \
+  --bloom-size 40000000000 \
+  --threads 60 \
   --lz4 \
-  --merge-abundance-min upper_rare_kmer_thresholds_10_percent.txt \
-  --recurrence-min 1 \
+  --merge-abundance-min merge-abundance-min_thresholds.txt \
+  --mode hash:bft:bin \
+  --bf-format howdesbt \
   --save-if 1 \
-  --log-files merge \
-  --max-hash 40000000000 \
-  --hasher sabuhash \
-  --split howde
+  --focus 0.25 \
+  --nb-partitions 2500
 ```
 
 
 
 **Partitions**
 
-- Generates 2544 partitions
+- Generates 2500 partitions
 - Reminder: 241 read sets
 
 **Computation time**
 
-1 day, 15h, 34m. 
+1 day, 13h, 30m. 
 
 **Ressources:** 
 
-disk used 6.2 TB - (2.93 TB if kmer seen once are removed `--count-abundance-min 2`)
+disk used 2.23 TB 
 
-max memory  50 GB
+max memory  43 GB
 
 ## Creation of the howDeSbt index, with option --cull
 
