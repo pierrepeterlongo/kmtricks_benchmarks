@@ -49,6 +49,7 @@ The (dirty) script [parse_merger.py](parse_merger.py) enables to combine all inp
 - The ratio of  (#kmers_seen_once + #kmers_seen_twice)/#expected_number_erroneous
 
 
+Finaly: 1090815459740 have an abundance 1, 86212504001 are rescued by kmtrics, 98377921413 are theoretically FP
 
 Results are provided in this [res_filtered_kmers.txt](res_filtered_kmers.txt )  file, and summarised in the figure: 
 
