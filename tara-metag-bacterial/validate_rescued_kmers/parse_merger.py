@@ -166,4 +166,4 @@ def overlaid_histogram(data1, data2, n_bins = 0, data1_name="", data1_color="#53
     ax.legend(loc = 'best')
     plt.show() 
 
-overlaid_histogram(ratios_kmers_seen_twice_or_more, ratios_with_rescue, 10, "Hard abundance threshold ", "red", "Rescue strategy", "green", "ratio", "frequency", "Ratio filtered k-mers / expected erroneous k-mers")
+overlaid_histogram(ratios_kmers_seen_twice_or_more, ratios_with_rescue, 10, "Hard abundance threshold ", "red", "After rescue strategy", "green", "ratio", "frequency", "Ratio filtered k-mers / expected erroneous k-mers")
