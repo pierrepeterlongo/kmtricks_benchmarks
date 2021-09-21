@@ -90,8 +90,8 @@ print("ID station_name Total_kmers FP_wo_rescue FP_with_rescue\
       ")
 with open("bact_metaG_factorized.list") as mfile:
     sum_th_FP = 0
-    sum_wo = 0
-    sum_with = 0
+    sum_seen_once = 0
+    sum_non_rescued = 0
     for read_set_id in range(nb_sets):
         set_name = mfile.readline().split(" ")[0]
         # define total_number_of_kmers:
@@ -123,8 +123,8 @@ with open("bact_metaG_factorized.list") as mfile:
         else:
             expected_FP_ = expected_FP(total_number_of_kmers, fp_rate,  k)
             sum_th_FP += expected_FP_
-            sum_wo += FP_wo_rescued
-            sum_with += FP_with_rescued
+            sum_seen_once += threshold_2_kmers
+            sum_non_rescued += FP_with_rescued
             ratio_wo = round(FP_wo_rescued/expected_FP_, 2)
             ratio_with = round(FP_with_rescued/expected_FP_, 2)
             ratio_seen_twice_or_more = round(threshold_2_kmers/expected_FP_, 2)
@@ -137,7 +137,8 @@ with open("bact_metaG_factorized.list") as mfile:
             ratios_with_rescue.append(ratio_with)
             ratios_kmers_seen_twice_or_more.append(ratio_seen_twice_or_more)
         
-    print(f" {sum_wo} have an abundance 1, {sum_with} are rescued by kmtrics, {sum_th_FP} are theoretically FP")
+    print(f" {sum_seen_once} have an abundance 1\n {sum_non_rescued} are not rescued by kmtrics\n {sum_th_FP} are theoretically Falses")
+
 
 import matplotlib.pyplot as plt
 import numpy as np
