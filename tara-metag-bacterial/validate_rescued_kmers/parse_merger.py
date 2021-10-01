@@ -37,8 +37,8 @@ Fichier type:
 
 
 
-def expected_FP(nb_total_kmers: int, FP_rate: float, k: int):
-    return int(nb_total_kmers * (1-(1-FP_rate)**k))
+def expected_False(nb_total_kmers: int, False_rate: float, k: int):
+    return int(nb_total_kmers * (1-(1-False_rate)**k))
 
 total_kmers = [0 for read_set_id in range(nb_sets)]
 total_kmers_wo_rescued = [0 for read_set_id in range(nb_sets)]
@@ -81,46 +81,70 @@ with open("stationsGAIIx.txt") as mfile:
 k=20
 ratios_with_rescue = []
 ratios_kmers_seen_twice_or_more = []
-print("ID station_name Total_kmers FP_wo_rescue FP_with_rescue\
-      Techno Expected_FP \
-      ratio_FP_wo \
-      ratio_FP_with \
-      NB_kmers_seen_once ratio_kmer_seen_once_Expected_FP \
-      NB_kmers_seen_twice ratio_kmer_seen_twice_Expected_FP \
+print("ID station_name Total_kmers kmer_seen_once False_wo_rescue False_with_rescue\
+      Techno Expected_False \
+      ratio_False_wo \
+      ratio_False_with \
+      NB_kmers_seen_once ratio_kmer_seen_once_Expected_False \
+      NB_kmers_seen_twice ratio_kmer_seen_twice_Expected_False \
       ")
 with open("bact_metaG_factorized.list") as mfile:
+<<<<<<< HEAD
+    sum_th_False = 0
+    sum_seen_once = 0
+    sum_non_rescued = 0
+    
+    sum_ratio_with = 0
+    sum_ratio_ab_sup_one = 0
+    nb_summed = 0
+    
+    sum_theoretical_genomical = 0
+    sum_raw = 0
+    sum_ab_sup_one = 0
+    sum_after_rescue = 0
+=======
     sum_th_FP = 0
     sum_seen_once = 0
     sum_non_rescued = 0
+>>>>>>> 815abd83bb1eea5e18df91584d187f102451a1b0
     for read_set_id in range(nb_sets):
         set_name = mfile.readline().split(" ")[0]
         # define total_number_of_kmers:
         with open(f"estimated_kmer_counts_metaG_bact/{set_name}_count_k20_k20.hist") as est_file:
-            total_number_of_kmers = int(int(est_file.readline().split()[-1]))#*2442/2443) # one log is empty, hence we decrease the total estimated number of kmers. Necessary?
+            total_number_of_kmers = int(est_file.readline().split()[-1])#*2442/2443) # one log is empty, hence we decrease the total estimated number of kmers. Necessary?
             est_file.readline() # FO, we dont care
             kmer_seen_once = int(int(est_file.readline().split()[-1]))#*2442/2443)
             kmer_seen_twice = int(int(est_file.readline().split()[-1]))#*2442/2443)
-        FP_wo_rescued = total_number_of_kmers-total_kmers_wo_rescued[read_set_id]
-        FP_with_rescued = total_number_of_kmers-total_kmers_with_rescued[read_set_id]
-        print(f"set{read_set_id} {set_name} {total_number_of_kmers} {kmer_seen_once} {FP_wo_rescued} {FP_with_rescued}", end="")
+        False_wo_rescued = total_number_of_kmers-total_kmers_wo_rescued[read_set_id]
+        False_with_rescued = total_number_of_kmers-total_kmers_with_rescued[read_set_id]
+        print(f"set{read_set_id} {set_name} {total_number_of_kmers} {kmer_seen_once} {False_wo_rescued} {False_with_rescued}", end="")
 
         threshold_2_kmers = kmer_seen_once
         threshold_3_kmers = kmer_seen_once + kmer_seen_twice
         techno = ""
-        fp_rate = None
+        False_rate = None
         if set_name in hs2000_set_names:
             techno = "hs2000"
-            fp_rate = 0.00064086
+            False_rate = 0.00064086
         elif set_name in hs2500_set_names:
             techno = "hs2500"
-            fp_rate = 0.004838
+            False_rate = 0.004838
         elif set_name in gaIIx_set_names:
             techno = "gaIIx"
-            fp_rate = 0.0017155
+            False_rate = 0.0017155
 
         if techno == "":
             print(" UNDEF")
         else:
+<<<<<<< HEAD
+            expected_False_ = expected_False(total_number_of_kmers, False_rate,  k)
+            sum_th_False += expected_False_
+            sum_seen_once += threshold_2_kmers
+            sum_non_rescued += False_with_rescued
+            ratio_wo = round(False_wo_rescued/expected_False_, 2)
+            ratio_with = round(False_with_rescued/expected_False_, 2)
+            ratio_seen_twice_or_more = round(threshold_2_kmers/expected_False_, 2)
+=======
             expected_FP_ = expected_FP(total_number_of_kmers, fp_rate,  k)
             sum_th_FP += expected_FP_
             sum_seen_once += threshold_2_kmers
@@ -128,18 +152,59 @@ with open("bact_metaG_factorized.list") as mfile:
             ratio_wo = round(FP_wo_rescued/expected_FP_, 2)
             ratio_with = round(FP_with_rescued/expected_FP_, 2)
             ratio_seen_twice_or_more = round(threshold_2_kmers/expected_FP_, 2)
+>>>>>>> 815abd83bb1eea5e18df91584d187f102451a1b0
             print(f"\
-                 {techno} {expected_FP_}\
+                 {techno} {expected_False_}\
                  {ratio_wo}\
                  {ratio_with}\
                  {threshold_2_kmers} {ratio_seen_twice_or_more}\
-                 {threshold_3_kmers} {round(threshold_3_kmers/expected_FP_, 2)}")
+                 {threshold_3_kmers} {round(threshold_3_kmers/expected_False_, 2)}")
+            
+            
+            sum_ratio_with += ratio_with
+            sum_ratio_ab_sup_one += ratio_seen_twice_or_more
+            nb_summed += 1
+            
+            genomical = total_number_of_kmers-expected_False_
+            absupone = total_number_of_kmers-kmer_seen_once
+            
+            sum_theoretical_genomical += genomical
+            sum_raw += total_number_of_kmers
+            sum_ab_sup_one += absupone
+            sum_after_rescue += total_kmers_with_rescued[read_set_id]
+            
+            print(f"\n\
+                    Genomical: {genomical} (diff: 0)\n\
+                    Row: {total_number_of_kmers}  (diff: {total_number_of_kmers-genomical})\n\
+                    Ab>1:{absupone} (diff: {absupone-genomical})\n\
+                    Rescued:{total_kmers_with_rescued[read_set_id]} (diff: {total_kmers_with_rescued[read_set_id]-genomical})")
             ratios_with_rescue.append(ratio_with)
             ratios_kmers_seen_twice_or_more.append(ratio_seen_twice_or_more)
         
+<<<<<<< HEAD
+    print(f" {sum_seen_once} have an abundance 1\n {sum_non_rescued} are not rescued by kmtrics\n {sum_th_False} are theoretically Falses")
+
+    print(f"Cells of the matrix: \n\
+    REMAINING:\n\
+            - Theoretical non-empty cells:\t{sum_theoretical_genomical} (diff: 0, ratio 1)\n\
+            - Row non-empty cells:        \t{sum_raw} (diff: {sum_raw-sum_theoretical_genomical}, ratio {round(sum_raw/sum_theoretical_genomical,3)})\n\
+            - Cell with abundance > 1:    \t{sum_ab_sup_one} (diff: {sum_ab_sup_one-sum_theoretical_genomical}, ratio {round(sum_ab_sup_one/sum_theoretical_genomical,3)})\n\
+            - Cell conserved after rescue:\t{sum_after_rescue} (diff: {sum_after_rescue-sum_theoretical_genomical}, ratio {round(sum_after_rescue/sum_theoretical_genomical,3)})\n\
+    REMOVED:\n\
+            - Theroretically removed: \t\t{sum_raw-sum_theoretical_genomical} (ratio 1)\n\
+            - Removed with ab2 threshold:\t{sum_raw-sum_ab_sup_one} (ratio {round((sum_raw-sum_ab_sup_one)/(sum_raw-sum_theoretical_genomical),3)})\n\
+            - Removed after rescue : \t\t{sum_raw-sum_after_rescue} (ratio {round((sum_raw-sum_after_rescue)/(sum_raw-sum_theoretical_genomical),3)})\n\
+    AVERAGE RATIOS\n\
+            - hard threshold: {round(sum_ratio_ab_sup_one/nb_summed,3)}\n\
+            - rescue: {round(sum_ratio_with/nb_summed,3)}\n\
+                ")
+    
+    
+=======
     print(f" {sum_seen_once} have an abundance 1\n {sum_non_rescued} are not rescued by kmtrics\n {sum_th_FP} are theoretically Falses")
 
 
+>>>>>>> 815abd83bb1eea5e18df91584d187f102451a1b0
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -166,4 +231,8 @@ def overlaid_histogram(data1, data2, n_bins = 0, data1_name="", data1_color="#53
     ax.legend(loc = 'best')
     plt.show() 
 
+<<<<<<< HEAD
+overlaid_histogram(ratios_kmers_seen_twice_or_more, ratios_with_rescue, 10, "Hard abundance threshold ", "red", f"After rescue strategy", "green", "Filtering ratio", "frequency", "Histogram of filtering ratios (<1: under-filtered, >1: over-filtered)")
+=======
 overlaid_histogram(ratios_kmers_seen_twice_or_more, ratios_with_rescue, 10, "Hard abundance threshold ", "red", "After rescue strategy", "green", "ratio", "frequency", "Ratio filtered k-mers / expected erroneous k-mers")
+>>>>>>> 815abd83bb1eea5e18df91584d187f102451a1b0
