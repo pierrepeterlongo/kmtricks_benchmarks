@@ -12,9 +12,7 @@ Cf [README](../data/README.md) file in the data directory for information about 
 
 ## Running kmtricks
 
-kmtricks commit [b77c45d](https://github.com/tlemane/kmtricks/commit/b77c45df3a75482aad9e9a6293d838a5adea67d9)
-
-(this was dev branch, corresponding to release 0.0.1, and enabling to select the wanted log files)
+kmtricks release v1.1.0
 
 **Command line**
 
@@ -23,20 +21,20 @@ Here we conserved all kmers from all dataset, before to filter the low abundant 
 We generated bloom filters composed of 4 billion bits each. 
 
 ```bash
-kmtricks pipeline \
-  --file bact_metaG_factorized.list \
-  --kmer-size 20 \
-  --run-dir ${BRIDGE_MSUB_PWD}/kmtricks2_metag_bact_tara_with_rescue \
-  --count-abundance-min 1 \
-  --bloom-size 40000000000 \
-  --threads 60 \
-  --lz4 \
-  --merge-abundance-min merge-abundance-min_thresholds.txt \
-  --mode hash:bft:bin \
-  --bf-format howdesbt \
-  --save-if 1 \
-  --focus 0.25 \
-  --nb-partitions 2500
+kmtricks-v1.1.0/bin/kmtricks  pipeline \
+ --file bact_metaG_factorized.list \
+ --run-dir ${BRIDGE_MSUB_PWD}/kmtricks110_metag_bact_tara_with_rescue \
+ --kmer-size 20 \
+ --hard-min 1 \
+ --mode hash:bft:bin \
+ --soft-min upper_rare_20mer_thresholds_10_percent.txt \
+ --share-min 1 \
+ --nb-partitions 2500 \
+ --focus 0.25 \
+ --cpr \
+ --bloom-size 25000000000 \
+ --bf-format howdesbt \
+ --threads 60
 ```
 
 
