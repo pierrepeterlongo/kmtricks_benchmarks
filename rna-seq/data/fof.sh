@@ -17,12 +17,12 @@ do
     echo "Error: ${p}/${name}.fasta.gz does not exists !"
     break
   fi
-  
-  echo "D${c} : ${p}/${name}.fasta.gz ! ${cutoff}" >> fof_${m}_kmtricks.txt
-  echo "${p}/${name}.fasta.gz ${cutoff}" >> fof_${m}.txt
+
+  echo "D${c} : ${p}/${name}.fasta.gz" >> fof_${m}_kmtricks.txt
+  echo "${p}/${name}.fasta.gz" >> fof_${m}.txt
   let "c++"
-  
+
   if [[ ${c} == ${m} ]]; then
-    break 
+    break
   fi
 done < sra_id_threshold.txt

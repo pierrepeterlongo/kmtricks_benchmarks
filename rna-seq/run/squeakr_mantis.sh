@@ -7,7 +7,7 @@ while read -r exp;
 do
   IFS=" " read file cutoff <<< "$exp"
   base="$(basename -- $file)"
-  squeakr count -e -k 20 -c ${cutoff} -s 31 -t 20 -o sq_files/${base}.squeakr --no-counts ${file}
+  squeakr count -e -k 20 -c 2 -s 31 -t 20 -o sq_files/${base}.squeakr --no-counts ${file}
 done < ${in_fof}
 
 ls sq_files/* > sq_files_list

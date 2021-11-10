@@ -6,7 +6,7 @@ while read -r exp;
 do
   IFS=" " read file cutoff <<< "$exp"
   base="$(basename -- $file)"
-  kmc -k20 -m20 -fa -t20 -ci${cutoff} ${file} ${base} ./tmp
+  kmc -k20 -m20 -fa -t20 -ci2 ${file} ${base} ./tmp
 done < ${in_fof}
 
 mkdir swap_meta
