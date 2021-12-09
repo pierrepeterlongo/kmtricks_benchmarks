@@ -91,12 +91,14 @@ Result: 0.996808. This means that in average 99.7% of the kmers from queried rea
 ```
 for station in `cat bact_metaG_factorized.list | cut -d " " -f 1`; do echo -n "$station "; grep $station res_10k.txt | cut -d " " -f 3 | awk '{ total += $1; count++ } END { print total/count }'; done | sort -k 2 -n -r > res_similarity_sorted.txt
 ```
-Result: 
+Result:
+```
 64SUR0CCKK11 0.996808
 64DCM0CCKK11 0.945783
 65SUR0CCKK11 0.94355
 65DCM0CCKK11 0.941493
 ...
+```
 We find as expected 64SUR0CCKK11 as the most similar with reads from itself. Other lines enable to measure the similarity between those 10000 reads and each station.
 
 
@@ -105,30 +107,11 @@ We find as expected 64SUR0CCKK11 as the most similar with reads from itself. Oth
 for station in `cat bact_metaG_factorized.list | cut -d " " -f 1`; do echo -n "$station "; grep $station res_10k.txt | cut -d " " -f 2 | cut -d "/" -f 1 | awk '{ total += $1; count++ } END { print total/count }'; done | sort -k 2 -n -r > res_nb_kmers_sorted.txt
 ```
 Again 64SUR0CCKK11 has the highest number of shared kmers with itself. 
-
+```
 Result:
 64SUR0CCKK11 86.369
 48SUR0CCII11 82.3111
 52DCM0CCII11 82.2829
 65SUR0CCKK11 82.21
-64DCM0CCKK11 82.2072
-
-
-**Nombre de fois que chaque station est retrouvée dans les réponses**
-```
-for station in `cat bact_metaG_factorized.list | cut -d " " -f 1`; do echo -n "$station "; grep -c $station res_10k.txt; done | sort -k 2 -n -r > res_nb_occurrences_sorted.txt
-```
-
-
-[res_nb_occurrences_sorted.txt](:/00728b6461bb4922a9c4a55d53984f0b)
-
-64SUR0CCKK11 arrive en tête. Les requetes sont toutes retrouvées:
-Début de fichier:
-64SUR0CCKK11 10000
-4DCM0CCII11 8804
-65DCM0CCKK11 7854
-64DCM0CCKK11 7851
-58DCM0CCKK11 7698
-65SUR0CCKK11 7657
 ...
-
+```
