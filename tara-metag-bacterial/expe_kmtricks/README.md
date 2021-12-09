@@ -12,7 +12,7 @@ Cf [README](../data/README.md) file in the data directory for information about 
 
 ## Running kmtricks
 
-kmtricks release v1.1.0
+kmtricks release v1.1.1
 
 **Command line**
 
@@ -21,20 +21,20 @@ Here we conserved all kmers from all dataset, before to filter the low abundant 
 We generated bloom filters composed of 4 billion bits each. 
 
 ```bash
-kmtricks-v1.1.0/bin/kmtricks  pipeline \
- --file bact_metaG_factorized.list \
- --run-dir ${BRIDGE_MSUB_PWD}/kmtricks110_metag_bact_tara_with_rescue \
- --kmer-size 20 \
- --hard-min 1 \
- --mode hash:bft:bin \
- --soft-min upper_rare_20mer_thresholds_10_percent.txt \
- --share-min 1 \
- --nb-partitions 2500 \
- --focus 0.25 \
- --cpr \
- --bloom-size 25000000000 \
- --bf-format howdesbt \
- --threads 60
+kmtricks  pipeline \
+  --file bact_metaG_factorized.list \
+  --run-dir kmtricks111_metag_bact_tara_with_rescue \
+  --kmer-size 20 \
+  --hard-min 1 \
+  --mode hash:bft:bin \
+  --soft-min upper_rare_20mer_thresholds_10_percent.txt \
+  --share-min 1 \
+  --nb-partitions 2500 \
+  --focus 0.25 \
+  --cpr \
+  --bloom-size 25000000000 \
+  --bf-format howdesbt \
+  --threads 60
 ```
 
 
@@ -54,43 +54,28 @@ disk used 2.23 TB
 
 max memory  43 GB
 
-## Creation of the howDeSbt index, with option --cull
-
-Determine the tree topology (less than a minute)
-
-```bash 
-ls kmtricks0_0_1_metag_bact_tara/storage/vectors/howde/*.bf >  list_bf.txt
-kmtricks/bin/howdesbt cluster list_bf.txt --cull --out=cluster_tara 10000000..20000000
-```
-
-`
-Note that we do not compute the tree topology using the first bits of the bloom filters. This is because, these first bits (first 8 million in this experiment) correspond to the first partition, which contains low complexity kmers. 
-
-`kmtricks/bin/howdesbt build --howde cluster_tara`
-
-- Computation Time: 1 day 17h, 38m
-- Max Disk Used: 0.66 TB
-- Max Mem Used: 162 GB
-- Size Directory: 612 GB
-- Directory contains 467 bloom filters files and one sbt file.
-
-
-
-## Query of the so-created index, with 1000 reads
-
-TODO RESTARTS
+## Creation of the howDeSbt index
 
 ```bash
-zcat /ccc/store/cont007/fg0001/fg0001/rawdata/projet_APY/AAAI/RunsSolexa/110712_BISMUTH_63A2BAAXX/APY_AAAIOSF_1_1_63A2BAAXX_clean.fastq.gz | head -n 4000 | ./fastq2fasta.py > random1000.fa
+kmtricks  index --run-dir kmtricks111_metag_bact_tara_with_rescue --cull2 --wbits 10000000:20000000 --howde
 ```
+**Computation time**
+
+20h, 20m. 
+
+**Ressources:** 
+
+disk used 0.6 TB 
+
+max memory  165 MB
 
 
-
-```bash 
-~/kmtricks_3a3426f/bin/howdesbt queryKm --tree=cluster_tara.detbrief.sbt --repart=minimRepart.minimRepart --win=hash_window.vec random1000.fa
+## Query of the so-created index
+Querying `random_10k.fa` containing 10000 reads
+```bash
+kmtricks query -run-dir ${BRIDGE_MSUB_PWD}/kmtricks110_metag_bact_tara_with_rescue --query random_10k.fa --output res_10k.txt --sort
 ```
+Query time is 18 minutes. 
 
-Query time is 19 minutes. 
-
-Result file: [query1000.txt](query1000.txt)
+res_10k.txt contains for each queryied read, its number of shared kmer with each indexed dataset.
 
