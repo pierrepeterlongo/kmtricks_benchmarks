@@ -38,7 +38,7 @@ Fichier type:
 
 
 def expected_False(nb_total_kmers: int, False_rate: float, k: int):
-    return int(nb_total_kmers * (1-(1-False_rate)**k))
+    return int(nb_total_kmers * False_rate)
 
 total_kmers = [0 for read_set_id in range(nb_sets)]
 total_kmers_wo_rescued = [0 for read_set_id in range(nb_sets)]
@@ -89,7 +89,7 @@ print("ID station_name Total_kmers kmer_seen_once False_wo_rescue False_with_res
       NB_kmers_seen_twice ratio_kmer_seen_twice_Expected_False \
       ")
 with open("bact_metaG_factorized.list") as mfile:
-<<<<<<< HEAD
+
     sum_th_False = 0
     sum_seen_once = 0
     sum_non_rescued = 0
@@ -102,11 +102,7 @@ with open("bact_metaG_factorized.list") as mfile:
     sum_raw = 0
     sum_ab_sup_one = 0
     sum_after_rescue = 0
-=======
-    sum_th_FP = 0
-    sum_seen_once = 0
-    sum_non_rescued = 0
->>>>>>> 815abd83bb1eea5e18df91584d187f102451a1b0
+
     for read_set_id in range(nb_sets):
         set_name = mfile.readline().split(" ")[0]
         # define total_number_of_kmers:
@@ -125,18 +121,18 @@ with open("bact_metaG_factorized.list") as mfile:
         False_rate = None
         if set_name in hs2000_set_names:
             techno = "hs2000"
-            False_rate = 0.00064086
+            False_rate = 0.0127393936446049991400
         elif set_name in hs2500_set_names:
             techno = "hs2500"
-            False_rate = 0.004838
+            False_rate = 0.0924488912376660316187
         elif set_name in gaIIx_set_names:
             techno = "gaIIx"
-            False_rate = 0.0017155
+            False_rate = 0.0337559345402717961688
 
         if techno == "":
             print(" UNDEF")
         else:
-<<<<<<< HEAD
+
             expected_False_ = expected_False(total_number_of_kmers, False_rate,  k)
             sum_th_False += expected_False_
             sum_seen_once += threshold_2_kmers
@@ -144,15 +140,7 @@ with open("bact_metaG_factorized.list") as mfile:
             ratio_wo = round(False_wo_rescued/expected_False_, 2)
             ratio_with = round(False_with_rescued/expected_False_, 2)
             ratio_seen_twice_or_more = round(threshold_2_kmers/expected_False_, 2)
-=======
-            expected_FP_ = expected_FP(total_number_of_kmers, fp_rate,  k)
-            sum_th_FP += expected_FP_
-            sum_seen_once += threshold_2_kmers
-            sum_non_rescued += FP_with_rescued
-            ratio_wo = round(FP_wo_rescued/expected_FP_, 2)
-            ratio_with = round(FP_with_rescued/expected_FP_, 2)
-            ratio_seen_twice_or_more = round(threshold_2_kmers/expected_FP_, 2)
->>>>>>> 815abd83bb1eea5e18df91584d187f102451a1b0
+
             print(f"\
                  {techno} {expected_False_}\
                  {ratio_wo}\
@@ -180,8 +168,7 @@ with open("bact_metaG_factorized.list") as mfile:
                     Rescued:{total_kmers_with_rescued[read_set_id]} (diff: {total_kmers_with_rescued[read_set_id]-genomical})")
             ratios_with_rescue.append(ratio_with)
             ratios_kmers_seen_twice_or_more.append(ratio_seen_twice_or_more)
-        
-<<<<<<< HEAD
+
     print(f" {sum_seen_once} have an abundance 1\n {sum_non_rescued} are not rescued by kmtrics\n {sum_th_False} are theoretically Falses")
 
     print(f"Cells of the matrix: \n\
@@ -199,12 +186,7 @@ with open("bact_metaG_factorized.list") as mfile:
             - rescue: {round(sum_ratio_with/nb_summed,3)}\n\
                 ")
     
-    
-=======
-    print(f" {sum_seen_once} have an abundance 1\n {sum_non_rescued} are not rescued by kmtrics\n {sum_th_FP} are theoretically Falses")
 
-
->>>>>>> 815abd83bb1eea5e18df91584d187f102451a1b0
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -219,7 +201,7 @@ def overlaid_histogram(data1, data2, n_bins = 0, data1_name="", data1_color="#53
     if n_bins == 0:
     	bins = np.arange(data_range[0], data_range[1] + binwidth, binwidth)
     else: 
-    	bins = n_bins
+        bins = n_bins
 
     # Create the plot
     _, ax = plt.subplots()
@@ -231,8 +213,5 @@ def overlaid_histogram(data1, data2, n_bins = 0, data1_name="", data1_color="#53
     ax.legend(loc = 'best')
     plt.show() 
 
-<<<<<<< HEAD
-overlaid_histogram(ratios_kmers_seen_twice_or_more, ratios_with_rescue, 10, "Hard abundance threshold ", "red", f"After rescue strategy", "green", "Filtering ratio", "frequency", "Histogram of filtering ratios (<1: under-filtered, >1: over-filtered)")
-=======
+
 overlaid_histogram(ratios_kmers_seen_twice_or_more, ratios_with_rescue, 10, "Hard abundance threshold ", "red", "After rescue strategy", "green", "ratio", "frequency", "Ratio filtered k-mers / expected erroneous k-mers")
->>>>>>> 815abd83bb1eea5e18df91584d187f102451a1b0
