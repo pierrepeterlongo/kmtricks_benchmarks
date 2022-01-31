@@ -29,9 +29,9 @@ for file in data/*.fof;
         date; 
         name=`basename $file | cut -f 1 -d "."`; 
         echo ${name}; 
-        ./kmc -t60 -k20 -cs2 -m256 @${file} ${name}_res .
+        ./kmc -t128 -m100 -k20 -ci2  @${file} ${name}_res .
      ./kmc_dump ${name}_res /dev/stdout | awk '{print $1}' \
-     | ./howdesbt makebf /dev/stdin --kmersin K=20 --bits=40000000000 --out=${name}.bf
+     | ./howdesbt makebf /dev/stdin --kmersin K=20 --bits=25000000000 --out=${name}.bf
      rm -f ${name}_res_pre
      rm -f ${name}_res_suf
 done
@@ -39,31 +39,16 @@ done
 
 The directory `data`contains 241 file of files. Each file of file corresponds to one sample and contains read file names (fastq.gz).
 
-**Computation time**
+The run was made on a TGCC node, limited to 72h of computation. After 72h hours, 196 bloom filters were constructued.
 
-Because of high computation times, we stopped the processes after 83 bloom filters, leading to 49h computations. 
-Based on this observation, and knowing that samples are not sorted by size or complexity, we estimate that for the 241 input samples, `kmc + howdesbt` would require more than 142h for generating the 241 bloom filters. 
+The total estimated running time is 5312 minutes for the 241 samples.
 
-**Ressources:** 
+Ressources:
 
-disk used 79 GB - including 39 GB of created bloom filters
+Disk used 0.8 TB (created bloom filters only, no intermediate disk is used during computation).
 
-max memory  213 GB.
+Max measured memory 101GB
 
-
-
-**Details about ressources needed:** 
-
-- `kmc` time: 
-  - min: 277 seconds
-  - max: 1303 seconds
-  - avg: 642 seconds
-- `kmc` temp disk size:
-  - min: 15253MB
-  - max: 55037MB
-  - avg: 34388MB
-- `kmc_dump | howdesbt makebf` time: 
-  - avg: 1483 seconds
 
 **Logs**
 Computation times, number of kmers, disk used: [log_kmc.txt](log_kmc.txt)
