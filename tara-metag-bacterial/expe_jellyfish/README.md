@@ -33,29 +33,23 @@ while read y; do
     date;  
     echo $name; 
     zcat $files | \ 
-	/ccc/cont007/home/fg0001/peterlop/jellyfish-linux count --mer-len=20 --canonical --size=4G --lower-count=2 --threads=60 /dev/stdin --output=/dev/stdout | \
+	/ccc/cont007/home/fg0001/peterlop/jellyfish-linux count --mer-len=20 --canonical --size=3G --lower-count=2 --threads=128 /dev/stdin --output=/dev/stdout | \
 	/ccc/cont007/home/fg0001/peterlop/jellyfish-linux dump --column --lower-count=2 /dev/stdin   |  \
 	awk '{ print $1 }' | \
-	./howdesbt makebf /dev/stdin --kmersin K=20 --bits=40000000000 --out=${name}.bf 
+	./howdesbt makebf /dev/stdin --kmersin K=20 --bits=25000000000 --out=${name}.bf 
     done < bact_metaG_factorized.list
 ```
 
 **Computation time**
 
-Because of high computation times, we stopped the processes after 55.3h of computation, leading to 73 constructed bloom filters. 
+The run was made on a TGCC node, limited to 72h of computation. After 72h hours, 129 bloom filters were constructued. 
 
-In the manuscript, we present results for 50h hours of computations, leading to 66 constructed bloom filters. 
-
-In both cases the total estimated running time is ~182h for the 241 samples. 
-
-Average computation time: 2731 sec.
+The total estimated running time is 8071minutes for the 241 samples. 
 
 **Ressources:** 
 
-Disk used 1.1 TB (created bloom filters only, no intermediate disk is used during computation).
+Disk used 0.8 TB (created bloom filters only, no intermediate disk is used during computation).
 
 Max memory  82GB (for the first computed bloom filters).
 
-**Logs**
-Computation times, number of kmers, disk used: [log_jellyfish_stopped.txt](log_jellyfish_stopped.txt)
 
