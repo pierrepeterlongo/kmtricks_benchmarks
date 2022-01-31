@@ -1,9 +1,8 @@
-start,1065
-Tue Jan 19 10:48:47 CET 2021
+Wed Jan 26 09:41:53 CET 2022
 100DCM0CCKK11
-1st stage: 244.156s
-2nd stage: 62.4652s
-Total    : 306.621s
+1st stage: 169.02s
+2nd stage: 40.2382s
+Total    : 209.259s
 Tmp size : 34843MB
 
 Stats:
@@ -14,11 +13,11 @@ Stats:
    Total no. of k-mers                :  27372082340
    Total no. of reads                 :    341083836
    Total no. of super-k-mers          :   4616906430
-Tue Jan 19 11:18:53 CET 2021
+Wed Jan 26 10:04:57 CET 2022
 100MES0CCKK11
-1st stage: 248.491s
-2nd stage: 73.0006s
-Total    : 321.492s
+1st stage: 218.54s
+2nd stage: 40.7112s
+Total    : 259.252s
 Tmp size : 36898MB
 
 Stats:
@@ -29,11 +28,11 @@ Stats:
    Total no. of k-mers                :  29148214927
    Total no. of reads                 :    364617404
    Total no. of super-k-mers          :   4881376538
-Tue Jan 19 11:45:16 CET 2021
+Wed Jan 26 10:26:06 CET 2022
 100SUR0CCKK11
-1st stage: 251.596s
-2nd stage: 79.0883s
-Total    : 330.685s
+1st stage: 231.363s
+2nd stage: 42.8482s
+Total    : 274.211s
 Tmp size : 38403MB
 
 Stats:
@@ -44,11 +43,11 @@ Stats:
    Total no. of k-mers                :  30111983135
    Total no. of reads                 :    373134256
    Total no. of super-k-mers          :   5091920142
-Tue Jan 19 12:11:00 CET 2021
+Wed Jan 26 10:46:23 CET 2022
 102DCM0CCKK11
-1st stage: 304.64s
-2nd stage: 119.696s
-Total    : 424.336s
+1st stage: 281.466s
+2nd stage: 53.2959s
+Total    : 334.762s
 Tmp size : 46879MB
 
 Stats:
@@ -59,11 +58,11 @@ Stats:
    Total no. of k-mers                :  37035083974
    Total no. of reads                 :    409176104
    Total no. of super-k-mers          :   6203093205
-Tue Jan 19 12:49:16 CET 2021
+Wed Jan 26 11:16:28 CET 2022
 102MES0CCKK11
-1st stage: 282.665s
-2nd stage: 87.1935s
-Total    : 369.858s
+1st stage: 209.624s
+2nd stage: 44.7355s
+Total    : 254.36s
 Tmp size : 39942MB
 
 Stats:
@@ -74,11 +73,11 @@ Stats:
    Total no. of k-mers                :  31476878256
    Total no. of reads                 :    399015310
    Total no. of super-k-mers          :   5287561434
-Tue Jan 19 13:20:14 CET 2021
+Wed Jan 26 11:40:29 CET 2022
 102SUR0CCKK11
-1st stage: 254.251s
-2nd stage: 62.7843s
-Total    : 317.035s
+1st stage: 193.332s
+2nd stage: 41.6031s
+Total    : 234.935s
 Tmp size : 34634MB
 
 Stats:
@@ -89,11 +88,11 @@ Stats:
    Total no. of k-mers                :  27201285966
    Total no. of reads                 :    337892910
    Total no. of super-k-mers          :   4589502836
-Tue Jan 19 13:48:45 CET 2021
+Wed Jan 26 12:03:06 CET 2022
 109DCM0CCKK11
-1st stage: 254.426s
-2nd stage: 65.8958s
-Total    : 320.322s
+1st stage: 207.272s
+2nd stage: 41.2414s
+Total    : 248.513s
 Tmp size : 34530MB
 
 Stats:
@@ -104,11 +103,11 @@ Stats:
    Total no. of k-mers                :  27193903149
    Total no. of reads                 :    340008658
    Total no. of super-k-mers          :   4572429264
-Tue Jan 19 14:19:13 CET 2021
+Wed Jan 26 12:27:00 CET 2022
 109MES0CCKK11
-1st stage: 320.051s
-2nd stage: 74.8023s
-Total    : 394.854s
+1st stage: 232.247s
+2nd stage: 43.1088s
+Total    : 275.356s
 Tmp size : 38925MB
 
 Stats:
@@ -119,11 +118,11 @@ Stats:
    Total no. of k-mers                :  30758414066
    Total no. of reads                 :    387574356
    Total no. of super-k-mers          :   5149237510
-Tue Jan 19 14:54:34 CET 2021
+Wed Jan 26 12:53:53 CET 2022
 109SUR0CCKK11
-1st stage: 331.618s
-2nd stage: 72.4167s
-Total    : 404.034s
+1st stage: 234.552s
+2nd stage: 46.4627s
+Total    : 281.014s
 Tmp size : 38025MB
 
 Stats:
@@ -134,11 +133,11 @@ Stats:
    Total no. of k-mers                :  29919699576
    Total no. of reads                 :    372118964
    Total no. of super-k-mers          :   5036648002
-Tue Jan 19 15:26:22 CET 2021
+Wed Jan 26 13:18:14 CET 2022
 110DCM0CCKK11
-1st stage: 396.805s
-2nd stage: 87.184s
-Total    : 483.989s
+1st stage: 252.73s
+2nd stage: 48.0828s
+Total    : 300.813s
 Tmp size : 42750MB
 
 Stats:
@@ -149,11 +148,11 @@ Stats:
    Total no. of k-mers                :  33656232308
    Total no. of reads                 :    423500782
    Total no. of super-k-mers          :   5660614624
-Tue Jan 19 16:06:51 CET 2021
+Wed Jan 26 13:48:55 CET 2022
 110MES0CCKK11
-1st stage: 397.716s
-2nd stage: 73.9349s
-Total    : 471.651s
+1st stage: 228.091s
+2nd stage: 43.0573s
+Total    : 271.148s
 Tmp size : 38825MB
 
 Stats:
@@ -164,11 +163,11 @@ Stats:
    Total no. of k-mers                :  30633542235
    Total no. of reads                 :    385005800
    Total no. of super-k-mers          :   5138049559
-Tue Jan 19 16:48:35 CET 2021
+Wed Jan 26 14:20:00 CET 2022
 110SUR0CCKK11
-1st stage: 348.059s
-2nd stage: 61.2094s
-Total    : 409.269s
+1st stage: 191.836s
+2nd stage: 44.3349s
+Total    : 236.171s
 Tmp size : 32873MB
 
 Stats:
@@ -179,11 +178,11 @@ Stats:
    Total no. of k-mers                :  25825188242
    Total no. of reads                 :    321797088
    Total no. of super-k-mers          :   4356361591
-Tue Jan 19 17:20:52 CET 2021
+Wed Jan 26 14:44:40 CET 2022
 111DCM0CCKK11
-1st stage: 410.72s
-2nd stage: 74.7677s
-Total    : 485.488s
+1st stage: 211.729s
+2nd stage: 44.2333s
+Total    : 255.962s
 Tmp size : 38134MB
 
 Stats:
@@ -194,11 +193,11 @@ Stats:
    Total no. of k-mers                :  29948500789
    Total no. of reads                 :    374127914
    Total no. of super-k-mers          :   5053221796
-Tue Jan 19 17:57:06 CET 2021
+Wed Jan 26 15:11:03 CET 2022
 111MES0CCKK11
-1st stage: 515.357s
-2nd stage: 77.8028s
-Total    : 593.16s
+1st stage: 252.809s
+2nd stage: 49.7814s
+Total    : 302.59s
 Tmp size : 41817MB
 
 Stats:
@@ -209,11 +208,11 @@ Stats:
    Total no. of k-mers                :  33044860942
    Total no. of reads                 :    417176234
    Total no. of super-k-mers          :   5531643141
-Tue Jan 19 18:37:56 CET 2021
+Wed Jan 26 15:40:18 CET 2022
 111SUR0CCKK11
-1st stage: 505.136s
-2nd stage: 73.5886s
-Total    : 578.725s
+1st stage: 222.839s
+2nd stage: 45.4407s
+Total    : 268.279s
 Tmp size : 38474MB
 
 Stats:
@@ -224,11 +223,11 @@ Stats:
    Total no. of k-mers                :  30273712047
    Total no. of reads                 :    380365534
    Total no. of super-k-mers          :   5096258039
-Tue Jan 19 19:15:00 CET 2021
+Wed Jan 26 16:06:49 CET 2022
 112DCM0CCKK11
-1st stage: 586.175s
-2nd stage: 80.223s
-Total    : 666.398s
+1st stage: 235.974s
+2nd stage: 49.5091s
+Total    : 285.483s
 Tmp size : 41681MB
 
 Stats:
@@ -239,11 +238,11 @@ Stats:
    Total no. of k-mers                :  32796690329
    Total no. of reads                 :    412959348
    Total no. of super-k-mers          :   5520248450
-Tue Jan 19 20:02:19 CET 2021
+Wed Jan 26 16:40:27 CET 2022
 112MES0CCKK11
-1st stage: 450.05s
-2nd stage: 63.933s
-Total    : 513.983s
+1st stage: 177.293s
+2nd stage: 43.0935s
+Total    : 220.387s
 Tmp size : 30380MB
 
 Stats:
@@ -254,11 +253,11 @@ Stats:
    Total no. of k-mers                :  24077642236
    Total no. of reads                 :    303174866
    Total no. of super-k-mers          :   4015555372
-Tue Jan 19 20:36:36 CET 2021
+Wed Jan 26 17:04:56 CET 2022
 112SUR0CCKK11
-1st stage: 589.612s
-2nd stage: 411.379s
-Total    : 1000.99s
+1st stage: 243.453s
+2nd stage: 43.3025s
+Total    : 286.756s
 Tmp size : 40421MB
 
 Stats:
@@ -269,11 +268,11 @@ Stats:
    Total no. of k-mers                :  31784482498
    Total no. of reads                 :    399008374
    Total no. of super-k-mers          :   5355140852
-Tue Jan 19 21:25:09 CET 2021
+Wed Jan 26 17:35:37 CET 2022
 122DCM0BBCC11
-1st stage: 250.051s
-2nd stage: 27.6108s
-Total    : 277.662s
+1st stage: 112.457s
+2nd stage: 30.0341s
+Total    : 142.491s
 Tmp size : 16246MB
 
 Stats:
@@ -284,11 +283,11 @@ Stats:
    Total no. of k-mers                :  12884812889
    Total no. of reads                 :    159910022
    Total no. of super-k-mers          :   2146253928
-Tue Jan 19 21:37:37 CET 2021
+Wed Jan 26 17:44:09 CET 2022
 122DCM0CCEE11
-1st stage: 508.349s
-2nd stage: 59.1569s
-Total    : 567.506s
+1st stage: 193.552s
+2nd stage: 39.1402s
+Total    : 232.692s
 Tmp size : 33466MB
 
 Stats:
@@ -299,11 +298,11 @@ Stats:
    Total no. of k-mers                :  26251319376
    Total no. of reads                 :    324054998
    Total no. of super-k-mers          :   4436085018
-Tue Jan 19 22:07:47 CET 2021
+Wed Jan 26 18:04:01 CET 2022
 122DCM0CCKK11
-1st stage: 452.335s
-2nd stage: 56.1769s
-Total    : 508.512s
+1st stage: 180.091s
+2nd stage: 41.2485s
+Total    : 221.34s
 Tmp size : 31126MB
 
 Stats:
@@ -314,11 +313,11 @@ Stats:
    Total no. of k-mers                :  24532029919
    Total no. of reads                 :    306153050
    Total no. of super-k-mers          :   4121072143
-Tue Jan 19 22:41:34 CET 2021
+Wed Jan 26 18:27:46 CET 2022
 122DCM0EEGG11
-1st stage: 529.488s
-2nd stage: 64.0269s
-Total    : 593.515s
+1st stage: 219.345s
+2nd stage: 40.6141s
+Total    : 259.959s
 Tmp size : 35231MB
 
 Stats:
@@ -329,11 +328,11 @@ Stats:
    Total no. of k-mers                :  27825182343
    Total no. of reads                 :    347261120
    Total no. of super-k-mers          :   4660619231
-Tue Jan 19 23:16:34 CET 2021
+Wed Jan 26 18:51:56 CET 2022
 122MES0BBCC11
-1st stage: 232.764s
-2nd stage: 177.295s
-Total    : 410.059s
+1st stage: 97.3636s
+2nd stage: 23.0585s
+Total    : 120.422s
 Tmp size : 15253MB
 
 Stats:
@@ -344,11 +343,11 @@ Stats:
    Total no. of k-mers                :  12107577361
    Total no. of reads                 :    151977910
    Total no. of super-k-mers          :   2014501811
-Tue Jan 19 23:36:48 CET 2021
+Wed Jan 26 19:04:41 CET 2022
 122MES0CCEE11
-1st stage: 405.888s
-2nd stage: 47.6036s
-Total    : 453.491s
+1st stage: 173.951s
+2nd stage: 35.0531s
+Total    : 209.004s
 Tmp size : 27807MB
 
 Stats:
@@ -359,11 +358,11 @@ Stats:
    Total no. of k-mers                :  21912848221
    Total no. of reads                 :    273102530
    Total no. of super-k-mers          :   3681258160
-Wed Jan 20 00:01:32 CET 2021
+Wed Jan 26 19:21:43 CET 2022
 122MES0CCKK11
-1st stage: 502.549s
-2nd stage: 427.899s
-Total    : 930.448s
+1st stage: 260.905s
+2nd stage: 48.4854s
+Total    : 309.39s
 Tmp size : 40504MB
 
 Stats:
@@ -374,11 +373,11 @@ Stats:
    Total no. of k-mers                :  32056257899
    Total no. of reads                 :    398717238
    Total no. of super-k-mers          :   5355907473
-Wed Jan 20 00:51:30 CET 2021
+Wed Jan 26 19:53:50 CET 2022
 122MES0EEGG11
-1st stage: 463.916s
-2nd stage: 313.689s
-Total    : 777.605s
+1st stage: 193.56s
+2nd stage: 39.3061s
+Total    : 232.866s
 Tmp size : 31345MB
 
 Stats:
@@ -389,11 +388,11 @@ Stats:
    Total no. of k-mers                :  24947392746
    Total no. of reads                 :    311860416
    Total no. of super-k-mers          :   4138564732
-Wed Jan 20 01:28:20 CET 2021
+Wed Jan 26 20:16:36 CET 2022
 122SUR0BBCC11
-1st stage: 251.78s
-2nd stage: 29.3698s
-Total    : 281.15s
+1st stage: 112.07s
+2nd stage: 22.803s
+Total    : 134.873s
 Tmp size : 16919MB
 
 Stats:
@@ -404,11 +403,11 @@ Stats:
    Total no. of k-mers                :  13371573284
    Total no. of reads                 :    165622264
    Total no. of super-k-mers          :   2237234713
-Wed Jan 20 01:40:57 CET 2021
+Wed Jan 26 20:25:10 CET 2022
 122SUR0CCEE11
-1st stage: 398.455s
-2nd stage: 44.632s
-Total    : 443.087s
+1st stage: 156.045s
+2nd stage: 35.7448s
+Total    : 191.789s
 Tmp size : 27575MB
 
 Stats:
@@ -419,11 +418,11 @@ Stats:
    Total no. of k-mers                :  21606820756
    Total no. of reads                 :    266045520
    Total no. of super-k-mers          :   3656598285
-Wed Jan 20 02:04:02 CET 2021
+Wed Jan 26 20:40:54 CET 2022
 122SUR0CCKK11
-1st stage: 420.092s
-2nd stage: 52.9112s
-Total    : 473.004s
+1st stage: 157.851s
+2nd stage: 39.4093s
+Total    : 197.26s
 Tmp size : 28429MB
 
 Stats:
@@ -434,11 +433,11 @@ Stats:
    Total no. of k-mers                :  22380619060
    Total no. of reads                 :    278380318
    Total no. of super-k-mers          :   3765000482
-Wed Jan 20 02:32:48 CET 2021
+Wed Jan 26 21:00:11 CET 2022
 122SUR0EEGG11
-1st stage: 459.008s
-2nd stage: 52.7595s
-Total    : 511.768s
+1st stage: 182.866s
+2nd stage: 37.5939s
+Total    : 220.46s
 Tmp size : 31482MB
 
 Stats:
@@ -449,11 +448,11 @@ Stats:
    Total no. of k-mers                :  24774458737
    Total no. of reads                 :    305930738
    Total no. of super-k-mers          :   4169756776
-Wed Jan 20 03:00:49 CET 2021
+Wed Jan 26 21:19:13 CET 2022
 123MES00CCEE11
-1st stage: 531.407s
-2nd stage: 346.674s
-Total    : 878.082s
+1st stage: 205.034s
+2nd stage: 40.757s
+Total    : 245.791s
 Tmp size : 34621MB
 
 Stats:
@@ -464,11 +463,11 @@ Stats:
    Total no. of k-mers                :  27289777728
    Total no. of reads                 :    337901332
    Total no. of super-k-mers          :   4583487987
-Wed Jan 20 03:42:35 CET 2021
+Wed Jan 26 21:44:47 CET 2022
 123MES00EEGG11
-1st stage: 499.425s
-2nd stage: 65.1017s
-Total    : 564.527s
+1st stage: 201.29s
+2nd stage: 37.2336s
+Total    : 238.524s
 Tmp size : 32832MB
 
 Stats:
@@ -479,11 +478,11 @@ Stats:
    Total no. of k-mers                :  26268429686
    Total no. of reads                 :    329728372
    Total no. of super-k-mers          :   4329269809
-Wed Jan 20 04:09:30 CET 2021
+Wed Jan 26 22:02:24 CET 2022
 123MXL00BBCC11
-1st stage: 291.539s
-2nd stage: 39.7617s
-Total    : 331.3s
+1st stage: 144.885s
+2nd stage: 45.5983s
+Total    : 190.483s
 Tmp size : 19412MB
 
 Stats:
@@ -494,11 +493,11 @@ Stats:
    Total no. of k-mers                :  15373868314
    Total no. of reads                 :    190841206
    Total no. of super-k-mers          :   2565301914
-Wed Jan 20 04:26:03 CET 2021
+Wed Jan 26 22:14:26 CET 2022
 123MXL00CCKK11
-1st stage: 480.84s
-2nd stage: 403.669s
-Total    : 884.509s
+1st stage: 243.485s
+2nd stage: 44.1804s
+Total    : 287.666s
 Tmp size : 37702MB
 
 Stats:
@@ -509,11 +508,11 @@ Stats:
    Total no. of k-mers                :  29738672465
    Total no. of reads                 :    368111100
    Total no. of super-k-mers          :   4990311578
-Wed Jan 20 05:11:30 CET 2021
+Wed Jan 26 22:44:00 CET 2022
 123SUR0BBCC12
-1st stage: 265.891s
-2nd stage: 28.0172s
-Total    : 293.908s
+1st stage: 109.792s
+2nd stage: 24.0098s
+Total    : 133.801s
 Tmp size : 17337MB
 
 Stats:
@@ -524,11 +523,11 @@ Stats:
    Total no. of k-mers                :  13653342757
    Total no. of reads                 :    170708768
    Total no. of super-k-mers          :   2297498506
-Wed Jan 20 05:22:04 CET 2021
+Wed Jan 26 22:50:52 CET 2022
 123SUR0CCEE11
-1st stage: 552.139s
-2nd stage: 246.936s
-Total    : 799.076s
+1st stage: 228.009s
+2nd stage: 44.0378s
+Total    : 272.047s
 Tmp size : 38678MB
 
 Stats:
@@ -539,11 +538,11 @@ Stats:
    Total no. of k-mers                :  30253577767
    Total no. of reads                 :    374941772
    Total no. of super-k-mers          :   5131635435
-Wed Jan 20 05:53:20 CET 2021
+Wed Jan 26 23:09:31 CET 2022
 123SUR0CCKK11
-1st stage: 507.863s
-2nd stage: 67.142s
-Total    : 575.005s
+1st stage: 201.553s
+2nd stage: 38.3506s
+Total    : 239.904s
 Tmp size : 34226MB
 
 Stats:
@@ -554,11 +553,11 @@ Stats:
    Total no. of k-mers                :  27145131949
    Total no. of reads                 :    342284306
    Total no. of super-k-mers          :   4522884821
-Wed Jan 20 06:29:22 CET 2021
+Wed Jan 26 23:34:38 CET 2022
 123SUR0EEGG11
-1st stage: 570.292s
-2nd stage: 70.2808s
-Total    : 640.573s
+1st stage: 227.121s
+2nd stage: 42.4161s
+Total    : 269.537s
 Tmp size : 37777MB
 
 Stats:
@@ -569,11 +568,11 @@ Stats:
    Total no. of k-mers                :  29813529474
    Total no. of reads                 :    374612616
    Total no. of super-k-mers          :   4998810061
-Wed Jan 20 07:04:11 CET 2021
+Wed Jan 26 23:58:19 CET 2022
 124MXL00BBCC11
-1st stage: 276.219s
-2nd stage: 138.912s
-Total    : 415.131s
+1st stage: 119.255s
+2nd stage: 24.6395s
+Total    : 143.894s
 Tmp size : 18396MB
 
 Stats:
@@ -584,11 +583,11 @@ Stats:
    Total no. of k-mers                :  14535591450
    Total no. of reads                 :    180068338
    Total no. of super-k-mers          :   2432593706
-Wed Jan 20 07:21:30 CET 2021
+Thu Jan 27 00:08:58 CET 2022
 124MXL00CCEE11
-1st stage: 453.747s
-2nd stage: 54.6539s
-Total    : 508.401s
+1st stage: 192.485s
+2nd stage: 38.0519s
+Total    : 230.537s
 Tmp size : 31695MB
 
 Stats:
@@ -599,11 +598,11 @@ Stats:
    Total no. of k-mers                :  24821413205
    Total no. of reads                 :    306812936
    Total no. of super-k-mers          :   4203606425
-Wed Jan 20 07:50:12 CET 2021
+Thu Jan 27 00:28:35 CET 2022
 124MXL00CCKK11
-1st stage: 465.464s
-2nd stage: 72.3502s
-Total    : 537.814s
+1st stage: 225.973s
+2nd stage: 45.2085s
+Total    : 271.181s
 Tmp size : 38216MB
 
 Stats:
@@ -614,11 +613,11 @@ Stats:
    Total no. of k-mers                :  30129863405
    Total no. of reads                 :    371995044
    Total no. of super-k-mers          :   5058891234
-Wed Jan 20 08:29:03 CET 2021
+Thu Jan 27 00:56:38 CET 2022
 124MXL00EEGG11
-1st stage: 514.18s
-2nd stage: 62.0635s
-Total    : 576.244s
+1st stage: 206.541s
+2nd stage: 39.2117s
+Total    : 245.753s
 Tmp size : 33775MB
 
 Stats:
@@ -629,11 +628,11 @@ Stats:
    Total no. of k-mers                :  26790719151
    Total no. of reads                 :    336043878
    Total no. of super-k-mers          :   4463115653
-Wed Jan 20 09:04:28 CET 2021
+Thu Jan 27 01:21:21 CET 2022
 124SUR0BBCC11
-1st stage: 276.092s
-2nd stage: 28.2616s
-Total    : 304.353s
+1st stage: 101.777s
+2nd stage: 23.4583s
+Total    : 125.235s
 Tmp size : 16176MB
 
 Stats:
@@ -644,11 +643,11 @@ Stats:
    Total no. of k-mers                :  12772559310
    Total no. of reads                 :    159381578
    Total no. of super-k-mers          :   2139359943
-Wed Jan 20 09:17:22 CET 2021
+Thu Jan 27 01:29:49 CET 2022
 124SUR0CCEE11
-1st stage: 472.117s
-2nd stage: 55.6663s
-Total    : 527.783s
+1st stage: 190.87s
+2nd stage: 39.2903s
+Total    : 230.16s
 Tmp size : 31009MB
 
 Stats:
@@ -659,11 +658,11 @@ Stats:
    Total no. of k-mers                :  24254094954
    Total no. of reads                 :    299392980
    Total no. of super-k-mers          :   4114191765
-Wed Jan 20 09:43:42 CET 2021
+Thu Jan 27 01:47:19 CET 2022
 124SUR0CCKK11
-1st stage: 492.365s
-2nd stage: 75.1016s
-Total    : 567.466s
+1st stage: 235.093s
+2nd stage: 47.1872s
+Total    : 282.28s
 Tmp size : 37837MB
 
 Stats:
@@ -674,11 +673,11 @@ Stats:
    Total no. of k-mers                :  29774264976
    Total no. of reads                 :    368419764
    Total no. of super-k-mers          :   5011651242
-Wed Jan 20 10:18:08 CET 2021
+Thu Jan 27 02:12:08 CET 2022
 124SUR0EEGG11
-1st stage: 543.068s
-2nd stage: 76.1914s
-Total    : 619.26s
+1st stage: 227.311s
+2nd stage: 39.447s
+Total    : 266.758s
 Tmp size : 35020MB
 
 Stats:
@@ -689,11 +688,11 @@ Stats:
    Total no. of k-mers                :  27646966486
    Total no. of reads                 :    345587612
    Total no. of super-k-mers          :   4633806619
-Wed Jan 20 10:48:51 CET 2021
+Thu Jan 27 02:32:54 CET 2022
 125MXL00BBCC11
-1st stage: 317.841s
-2nd stage: 35.3307s
-Total    : 353.172s
+1st stage: 136.987s
+2nd stage: 28.9735s
+Total    : 165.96s
 Tmp size : 20631MB
 
 Stats:
@@ -704,11 +703,11 @@ Stats:
    Total no. of k-mers                :  16335145747
    Total no. of reads                 :    207659762
    Total no. of super-k-mers          :   2726491845
-Wed Jan 20 11:02:30 CET 2021
+Thu Jan 27 02:41:54 CET 2022
 125MXL00CCEE11
-1st stage: 538.12s
-2nd stage: 76.5218s
-Total    : 614.642s
+1st stage: 243.04s
+2nd stage: 42.942s
+Total    : 285.982s
 Tmp size : 36224MB
 
 Stats:
@@ -719,11 +718,11 @@ Stats:
    Total no. of k-mers                :  28320983263
    Total no. of reads                 :    355384504
    Total no. of super-k-mers          :   4806427595
-Wed Jan 20 11:30:04 CET 2021
+Thu Jan 27 03:00:34 CET 2022
 125MXL00CCKK11
-1st stage: 571.207s
-2nd stage: 84.1396s
-Total    : 655.347s
+1st stage: 219.831s
+2nd stage: 44.1223s
+Total    : 263.954s
 Tmp size : 37305MB
 
 Stats:
@@ -734,11 +733,11 @@ Stats:
    Total no. of k-mers                :  29472966709
    Total no. of reads                 :    370803024
    Total no. of super-k-mers          :   4935477720
-Wed Jan 20 12:07:47 CET 2021
+Thu Jan 27 03:26:23 CET 2022
 125MXL00EEGG11
-1st stage: 624.063s
-2nd stage: 98.3782s
-Total    : 722.442s
+1st stage: 247.7s
+2nd stage: 47.9987s
+Total    : 295.699s
 Tmp size : 39438MB
 
 Stats:
@@ -749,11 +748,11 @@ Stats:
    Total no. of k-mers                :  31053805606
    Total no. of reads                 :    393280108
    Total no. of super-k-mers          :   5221904085
-Wed Jan 20 12:42:10 CET 2021
+Thu Jan 27 03:48:57 CET 2022
 125SUR0BBCC11
-1st stage: 267.205s
-2nd stage: 32.8259s
-Total    : 300.03s
+1st stage: 112.769s
+2nd stage: 23.0565s
+Total    : 135.825s
 Tmp size : 17530MB
 
 Stats:
@@ -764,11 +763,11 @@ Stats:
    Total no. of k-mers                :  13837509118
    Total no. of reads                 :    174494062
    Total no. of super-k-mers          :   2318513052
-Wed Jan 20 12:54:45 CET 2021
+Thu Jan 27 03:57:16 CET 2022
 125SUR0CCEE11
-1st stage: 570.107s
-2nd stage: 74.387s
-Total    : 644.494s
+1st stage: 240.211s
+2nd stage: 41.3001s
+Total    : 281.511s
 Tmp size : 38723MB
 
 Stats:
@@ -779,11 +778,11 @@ Stats:
    Total no. of k-mers                :  30295673349
    Total no. of reads                 :    380903618
    Total no. of super-k-mers          :   5136819314
-Wed Jan 20 13:25:09 CET 2021
+Thu Jan 27 04:17:21 CET 2022
 125SUR0CCKK11
-1st stage: 417.798s
-2nd stage: 72.7163s
-Total    : 490.514s
+1st stage: 213.719s
+2nd stage: 40.7899s
+Total    : 254.509s
 Tmp size : 33789MB
 
 Stats:
@@ -794,11 +793,11 @@ Stats:
    Total no. of k-mers                :  26555878635
    Total no. of reads                 :    328505148
    Total no. of super-k-mers          :   4477245836
-Wed Jan 20 13:54:30 CET 2021
+Thu Jan 27 04:38:29 CET 2022
 125SUR0EEGG11
-1st stage: 546.327s
-2nd stage: 351.378s
-Total    : 897.705s
+1st stage: 225.404s
+2nd stage: 37.8714s
+Total    : 263.275s
 Tmp size : 34209MB
 
 Stats:
@@ -809,11 +808,11 @@ Stats:
    Total no. of k-mers                :  27114753526
    Total no. of reads                 :    348200200
    Total no. of super-k-mers          :   4521020842
-Wed Jan 20 14:34:55 CET 2021
+Thu Jan 27 05:03:01 CET 2022
 128DCM0CCKK11
-1st stage: 477.592s
-2nd stage: 66.0952s
-Total    : 543.687s
+1st stage: 178.383s
+2nd stage: 39.5144s
+Total    : 217.897s
 Tmp size : 30301MB
 
 Stats:
@@ -824,11 +823,11 @@ Stats:
    Total no. of k-mers                :  23890869326
    Total no. of reads                 :    297815870
    Total no. of super-k-mers          :   4011247518
-Wed Jan 20 15:07:34 CET 2021
+Thu Jan 27 05:25:12 CET 2022
 128SUR0CCKK11
-1st stage: 560.953s
-2nd stage: 574.962s
-Total    : 1135.91s
+1st stage: 169.19s
+2nd stage: 40.8547s
+Total    : 210.044s
 Tmp size : 30782MB
 
 Stats:
@@ -839,11 +838,11 @@ Stats:
    Total no. of k-mers                :  24135300900
    Total no. of reads                 :    306384522
    Total no. of super-k-mers          :   4080082807
-Wed Jan 20 15:54:19 CET 2021
+Thu Jan 27 05:49:11 CET 2022
 132DCM0CCKK11
-1st stage: 1050.12s
-2nd stage: 188.911s
-Total    : 1239.03s
+1st stage: 313.13s
+2nd stage: 57.8586s
+Total    : 370.989s
 Tmp size : 52319MB
 
 Stats:
@@ -854,11 +853,11 @@ Stats:
    Total no. of k-mers                :  41310558395
    Total no. of reads                 :    522620482
    Total no. of super-k-mers          :   6921006132
-Wed Jan 20 16:57:11 CET 2021
+Thu Jan 27 06:26:36 CET 2022
 132MES0CCKK11
-1st stage: 616.11s
-2nd stage: 84.7518s
-Total    : 700.862s
+1st stage: 236.398s
+2nd stage: 44.8862s
+Total    : 281.285s
 Tmp size : 40828MB
 
 Stats:
@@ -869,11 +868,11 @@ Stats:
    Total no. of k-mers                :  32302445373
    Total no. of reads                 :    407894524
    Total no. of super-k-mers          :   5399179261
-Wed Jan 20 18:19:16 CET 2021
+Thu Jan 27 06:58:45 CET 2022
 132SUR0CCKK11
-1st stage: 642.754s
-2nd stage: 80.0461s
-Total    : 722.8s
+1st stage: 192.198s
+2nd stage: 42.3208s
+Total    : 234.519s
 Tmp size : 33970MB
 
 Stats:
@@ -884,11 +883,11 @@ Stats:
    Total no. of k-mers                :  26681347616
    Total no. of reads                 :    333427578
    Total no. of super-k-mers          :   4501876629
-Wed Jan 20 18:54:10 CET 2021
+Thu Jan 27 07:20:11 CET 2022
 133DCM0CCKK11
-1st stage: 679.647s
-2nd stage: 478.577s
-Total    : 1158.22s
+1st stage: 223.812s
+2nd stage: 43.5457s
+Total    : 267.358s
 Tmp size : 36396MB
 
 Stats:
@@ -899,11 +898,11 @@ Stats:
    Total no. of k-mers                :  28655023342
    Total no. of reads                 :    359284260
    Total no. of super-k-mers          :   4818787107
-Wed Jan 20 19:41:00 CET 2021
+Thu Jan 27 07:46:37 CET 2022
 133MES0CCKK11
-1st stage: 851.441s
-2nd stage: 125.99s
-Total    : 977.432s
+1st stage: 269.139s
+2nd stage: 49.4673s
+Total    : 318.607s
 Tmp size : 43671MB
 
 Stats:
@@ -914,11 +913,11 @@ Stats:
    Total no. of k-mers                :  34540667871
    Total no. of reads                 :    437816192
    Total no. of super-k-mers          :   5775455928
-Wed Jan 20 20:30:55 CET 2021
+Thu Jan 27 08:17:10 CET 2022
 133SUR0CCKK11
-1st stage: 943.406s
-2nd stage: 199.401s
-Total    : 1142.81s
+1st stage: 318.162s
+2nd stage: 64.6403s
+Total    : 382.802s
 Tmp size : 55037MB
 
 Stats:
@@ -929,11 +928,11 @@ Stats:
    Total no. of k-mers                :  43243241973
    Total no. of reads                 :    539113764
    Total no. of super-k-mers          :   7292372088
-Wed Jan 20 21:20:05 CET 2021
+Thu Jan 27 08:47:17 CET 2022
 137DCM0CCKK11
-1st stage: 603.194s
-2nd stage: 98.3053s
-Total    : 701.5s
+1st stage: 251.16s
+2nd stage: 46.1593s
+Total    : 297.32s
 Tmp size : 39381MB
 
 Stats:
@@ -944,11 +943,11 @@ Stats:
    Total no. of k-mers                :  31107919848
    Total no. of reads                 :    385071042
    Total no. of super-k-mers          :   5209898741
-Wed Jan 20 21:51:46 CET 2021
+Thu Jan 27 09:07:56 CET 2022
 137MES0CCKK11
-1st stage: 611.429s
-2nd stage: 104.095s
-Total    : 715.524s
+1st stage: 342.434s
+2nd stage: 50.8379s
+Total    : 393.272s
 Tmp size : 40944MB
 
 Stats:
@@ -959,11 +958,11 @@ Stats:
    Total no. of k-mers                :  32453113117
    Total no. of reads                 :    402714396
    Total no. of super-k-mers          :   5411539600
-Wed Jan 20 22:31:21 CET 2021
+Thu Jan 27 09:36:26 CET 2022
 137SUR0CCKK11
-1st stage: 758.123s
-2nd stage: 92.9322s
-Total    : 851.055s
+1st stage: 241.523s
+2nd stage: 205.554s
+Total    : 447.077s
 Tmp size : 37500MB
 
 Stats:
@@ -974,11 +973,11 @@ Stats:
    Total no. of k-mers                :  29402308771
    Total no. of reads                 :    371142378
    Total no. of super-k-mers          :   4971574739
-Wed Jan 20 23:10:54 CET 2021
+Thu Jan 27 10:04:33 CET 2022
 138DCM0CCKK11
-1st stage: 695.277s
-2nd stage: 82.5191s
-Total    : 777.796s
+1st stage: 249.86s
+2nd stage: 126.354s
+Total    : 376.215s
 Tmp size : 39619MB
 
 Stats:
@@ -989,11 +988,11 @@ Stats:
    Total no. of k-mers                :  31167994231
    Total no. of reads                 :    391822972
    Total no. of super-k-mers          :   5246943815
-Wed Jan 20 23:52:54 CET 2021
+Thu Jan 27 10:34:08 CET 2022
 138MES0CCKK11
-1st stage: 847.07s
-2nd stage: 90.6937s
-Total    : 937.763s
+1st stage: 226.41s
+2nd stage: 82.9816s
+Total    : 309.391s
 Tmp size : 35138MB
 
 Stats:
@@ -1004,11 +1003,11 @@ Stats:
    Total no. of k-mers                :  27873704561
    Total no. of reads                 :    346225714
    Total no. of super-k-mers          :   4643020467
-Thu Jan 21 00:32:43 CET 2021
+Thu Jan 27 10:58:27 CET 2022
 138SUR0CCKK11
-1st stage: 578.012s
-2nd stage: 445.852s
-Total    : 1023.86s
+1st stage: 200.289s
+2nd stage: 45.4871s
+Total    : 245.776s
 Tmp size : 35038MB
 
 Stats:
@@ -1019,11 +1018,11 @@ Stats:
    Total no. of k-mers                :  27540548614
    Total no. of reads                 :    342278366
    Total no. of super-k-mers          :   4642263723
-Thu Jan 21 01:15:34 CET 2021
+Thu Jan 27 11:22:53 CET 2022
 140SUR0CCKK11
-1st stage: 649.369s
-2nd stage: 68.6516s
-Total    : 718.021s
+1st stage: 228.505s
+2nd stage: 41.0374s
+Total    : 269.542s
 Tmp size : 37934MB
 
 Stats:
@@ -1034,11 +1033,11 @@ Stats:
    Total no. of k-mers                :  29811592274
    Total no. of reads                 :    370334582
    Total no. of super-k-mers          :   5025665422
-Thu Jan 21 01:52:53 CET 2021
+Thu Jan 27 11:47:58 CET 2022
 141SUR0CCKK11
-1st stage: 575.593s
-2nd stage: 378.669s
-Total    : 954.262s
+1st stage: 196.204s
+2nd stage: 38.8045s
+Total    : 235.008s
 Tmp size : 34811MB
 
 Stats:
@@ -1049,11 +1048,11 @@ Stats:
    Total no. of k-mers                :  27410416849
    Total no. of reads                 :    342398030
    Total no. of super-k-mers          :   4609513127
-Thu Jan 21 02:32:20 CET 2021
+Thu Jan 27 12:10:42 CET 2022
 142DCM0CCKK11
-1st stage: 492.209s
-2nd stage: 366.556s
-Total    : 858.765s
+1st stage: 183.859s
+2nd stage: 41.0111s
+Total    : 224.87s
 Tmp size : 31745MB
 
 Stats:
@@ -1064,11 +1063,11 @@ Stats:
    Total no. of k-mers                :  25004132962
    Total no. of reads                 :    311581824
    Total no. of super-k-mers          :   4203436410
-Thu Jan 21 03:09:16 CET 2021
+Thu Jan 27 12:32:59 CET 2022
 142MES0CCKK11
-1st stage: 555.554s
-2nd stage: 68.2403s
-Total    : 623.794s
+1st stage: 190.083s
+2nd stage: 42.0884s
+Total    : 232.172s
 Tmp size : 33113MB
 
 Stats:
@@ -1079,11 +1078,11 @@ Stats:
    Total no. of k-mers                :  26207304315
    Total no. of reads                 :    328237008
    Total no. of super-k-mers          :   4378448102
-Thu Jan 21 03:45:17 CET 2021
+Thu Jan 27 12:56:41 CET 2022
 142SUR0CCKK11
-1st stage: 538.708s
-2nd stage: 58.6792s
-Total    : 597.387s
+1st stage: 183.566s
+2nd stage: 40.9554s
+Total    : 224.522s
 Tmp size : 31990MB
 
 Stats:
@@ -1094,11 +1093,11 @@ Stats:
    Total no. of k-mers                :  25178538628
    Total no. of reads                 :    314283624
    Total no. of super-k-mers          :   4236689545
-Thu Jan 21 04:17:54 CET 2021
+Thu Jan 27 13:18:04 CET 2022
 145MES0CCKK11
-1st stage: 584.674s
-2nd stage: 73.2714s
-Total    : 657.945s
+1st stage: 208.747s
+2nd stage: 42.2111s
+Total    : 250.958s
 Tmp size : 35700MB
 
 Stats:
@@ -1109,11 +1108,11 @@ Stats:
    Total no. of k-mers                :  28280232226
    Total no. of reads                 :    354224626
    Total no. of super-k-mers          :   4719312067
-Thu Jan 21 04:55:49 CET 2021
+Thu Jan 27 13:44:04 CET 2022
 145SUR0CCKK11
-1st stage: 634.481s
-2nd stage: 70.5716s
-Total    : 705.052s
+1st stage: 212.826s
+2nd stage: 42.4602s
+Total    : 255.286s
 Tmp size : 35534MB
 
 Stats:
@@ -1124,11 +1123,11 @@ Stats:
    Total no. of k-mers                :  28034251415
    Total no. of reads                 :    352030928
    Total no. of super-k-mers          :   4702608652
-Thu Jan 21 05:35:37 CET 2021
+Thu Jan 27 14:10:59 CET 2022
 146MES0CCKK11
-1st stage: 520.52s
-2nd stage: 64.3131s
-Total    : 584.833s
+1st stage: 178.642s
+2nd stage: 40.278s
+Total    : 218.92s
 Tmp size : 31118MB
 
 Stats:
@@ -1139,11 +1138,11 @@ Stats:
    Total no. of k-mers                :  24628041444
    Total no. of reads                 :    307846576
    Total no. of super-k-mers          :   4114949683
-Thu Jan 21 06:14:44 CET 2021
+Thu Jan 27 14:38:09 CET 2022
 146SUR0CCKK11
-1st stage: 593.363s
-2nd stage: 468.13s
-Total    : 1061.49s
+1st stage: 203.12s
+2nd stage: 40.3646s
+Total    : 243.485s
 Tmp size : 34516MB
 
 Stats:
@@ -1154,11 +1153,11 @@ Stats:
    Total no. of k-mers                :  27177559975
    Total no. of reads                 :    338943134
    Total no. of super-k-mers          :   4570799511
-Thu Jan 21 07:00:15 CET 2021
+Thu Jan 27 15:04:30 CET 2022
 148MES0CCKK11
-1st stage: 559.051s
-2nd stage: 482.936s
-Total    : 1041.99s
+1st stage: 205.462s
+2nd stage: 43.2025s
+Total    : 248.665s
 Tmp size : 34219MB
 
 Stats:
@@ -1169,11 +1168,11 @@ Stats:
    Total no. of k-mers                :  27069576678
    Total no. of reads                 :    339721848
    Total no. of super-k-mers          :   4525308166
-Thu Jan 21 07:49:10 CET 2021
+Thu Jan 27 15:34:38 CET 2022
 148SUR0CCKK11
-1st stage: 573.078s
-2nd stage: 68.722s
-Total    : 641.8s
+1st stage: 205.083s
+2nd stage: 42.7623s
+Total    : 247.845s
 Tmp size : 34876MB
 
 Stats:
@@ -1184,11 +1183,11 @@ Stats:
    Total no. of k-mers                :  27475975167
    Total no. of reads                 :    346238396
    Total no. of super-k-mers          :   4617660961
-Thu Jan 21 08:29:47 CET 2021
+Thu Jan 27 16:01:59 CET 2022
 149MES0CCKK11
-1st stage: 633.163s
-2nd stage: 77.2882s
-Total    : 710.451s
+1st stage: 221.473s
+2nd stage: 46.0773s
+Total    : 267.55s
 Tmp size : 38931MB
 
 Stats:
@@ -1199,11 +1198,11 @@ Stats:
    Total no. of k-mers                :  30765154764
    Total no. of reads                 :    388065794
    Total no. of super-k-mers          :   5150181737
-Thu Jan 21 09:14:18 CET 2021
+Thu Jan 27 16:33:02 CET 2022
 149SUR0CCKK11
-1st stage: 604.702s
-2nd stage: 594.638s
-Total    : 1199.34s
+1st stage: 209.977s
+2nd stage: 42.4917s
+Total    : 252.469s
 Tmp size : 36145MB
 
 Stats:
@@ -1214,11 +1213,11 @@ Stats:
    Total no. of k-mers                :  28500578408
    Total no. of reads                 :    357891876
    Total no. of super-k-mers          :   4784363641
-Thu Jan 21 10:07:04 CET 2021
+Thu Jan 27 17:02:58 CET 2022
 150DCM0CCKK11
-1st stage: 645.149s
-2nd stage: 72.2549s
-Total    : 717.404s
+1st stage: 218.57s
+2nd stage: 42.6178s
+Total    : 261.188s
 Tmp size : 37008MB
 
 Stats:
@@ -1229,11 +1228,11 @@ Stats:
    Total no. of k-mers                :  29128580731
    Total no. of reads                 :    364054734
    Total no. of super-k-mers          :   4901119209
-Thu Jan 21 10:47:00 CET 2021
+Thu Jan 27 17:29:34 CET 2022
 150SUR0CCKK11
-1st stage: 662.136s
-2nd stage: 640.865s
-Total    : 1303s
+1st stage: 232.132s
+2nd stage: 45.4451s
+Total    : 277.577s
 Tmp size : 39260MB
 
 Stats:
@@ -1244,9 +1243,1713 @@ Stats:
    Total no. of k-mers                :  30853873688
    Total no. of reads                 :    387769558
    Total no. of super-k-mers          :   5201617243
+Thu Jan 27 18:00:45 CET 2022
+151DCM0CCKK11
+1st stage: 229.374s
+2nd stage: 44.0896s
+Total    : 273.464s
+Tmp size : 37106MB
 
-STOPPED
+Stats:
+   No. of k-mers below min. threshold :   5644490294
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   9243669130
+   No. of unique counted k-mers       :   3599178836
+   Total no. of k-mers                :  29207378946
+   Total no. of reads                 :    369538288
+   Total no. of super-k-mers          :   4914090261
+Thu Jan 27 18:31:11 CET 2022
+151SUR0CCKK11
+1st stage: 248.543s
+2nd stage: 43.8301s
+Total    : 292.373s
+Tmp size : 40168MB
 
-SUMMARY
-************ disk used ( KB ) 83340370 *******************
-************ max memory ( KB ) 223468200 ********************
+Stats:
+   No. of k-mers below min. threshold :   4346077327
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   7450701646
+   No. of unique counted k-mers       :   3104624319
+   Total no. of k-mers                :  31559134770
+   Total no. of reads                 :    396286730
+   Total no. of super-k-mers          :   5322016556
+Thu Jan 27 18:58:30 CET 2022
+152MES0CCKK11
+1st stage: 205.964s
+2nd stage: 65.9689s
+Total    : 271.933s
+Tmp size : 34992MB
+
+Stats:
+   No. of k-mers below min. threshold :   4727207999
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   8005265329
+   No. of unique counted k-mers       :   3278057330
+   Total no. of k-mers                :  27671181650
+   Total no. of reads                 :    345574560
+   Total no. of super-k-mers          :   4628094322
+Thu Jan 27 19:25:58 CET 2022
+152SUR0CCKK11
+1st stage: 198.062s
+2nd stage: 68.2356s
+Total    : 266.297s
+Tmp size : 33563MB
+
+Stats:
+   No. of k-mers below min. threshold :   4244953611
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6988682840
+   No. of unique counted k-mers       :   2743729229
+   Total no. of k-mers                :  26424873303
+   Total no. of reads                 :    329240054
+   Total no. of super-k-mers          :   4444649150
+Thu Jan 27 19:49:51 CET 2022
+152ZZZ00CCKK11
+1st stage: 228.503s
+2nd stage: 45.9483s
+Total    : 274.451s
+Tmp size : 39444MB
+
+Stats:
+   No. of k-mers below min. threshold :   5022208394
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   8474401951
+   No. of unique counted k-mers       :   3452193557
+   Total no. of k-mers                :  31059956242
+   Total no. of reads                 :    388462874
+   Total no. of super-k-mers          :   5223113895
+Thu Jan 27 20:18:40 CET 2022
+155DCM0CCKK11
+1st stage: 229.927s
+2nd stage: 45.6804s
+Total    : 275.607s
+Tmp size : 36635MB
+
+Stats:
+   No. of k-mers below min. threshold :   3027358106
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5258593163
+   No. of unique counted k-mers       :   2231235057
+   Total no. of k-mers                :  28882478960
+   Total no. of reads                 :    357393502
+   Total no. of super-k-mers          :   4849379861
+Thu Jan 27 20:38:49 CET 2022
+155MES0CCKK11
+1st stage: 222.643s
+2nd stage: 44.6633s
+Total    : 267.306s
+Tmp size : 37926MB
+
+Stats:
+   No. of k-mers below min. threshold :   5035471725
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   8578804561
+   No. of unique counted k-mers       :   3543332836
+   Total no. of k-mers                :  29887573275
+   Total no. of reads                 :    370391086
+   Total no. of super-k-mers          :   5021403934
+Thu Jan 27 21:08:09 CET 2022
+155SUR0CCKK11
+1st stage: 224.559s
+2nd stage: 43.6798s
+Total    : 268.238s
+Tmp size : 40757MB
+
+Stats:
+   No. of k-mers below min. threshold :   2640858193
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4846087011
+   No. of unique counted k-mers       :   2205228818
+   Total no. of k-mers                :  32135879906
+   Total no. of reads                 :    397681922
+   Total no. of super-k-mers          :   5394819522
+Thu Jan 27 21:28:07 CET 2022
+158DCM0CCKK11
+1st stage: 187.534s
+2nd stage: 39.7136s
+Total    : 227.248s
+Tmp size : 30775MB
+
+Stats:
+   No. of k-mers below min. threshold :   2330246682
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4012432281
+   No. of unique counted k-mers       :   1682185599
+   Total no. of k-mers                :  24229222593
+   Total no. of reads                 :    304435280
+   Total no. of super-k-mers          :   4074803949
+Thu Jan 27 21:43:46 CET 2022
+158MES0CCKK11
+1st stage: 167.722s
+2nd stage: 44.6457s
+Total    : 212.368s
+Tmp size : 29779MB
+
+Stats:
+   No. of k-mers below min. threshold :   4221839946
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6690266155
+   No. of unique counted k-mers       :   2468426209
+   Total no. of k-mers                :  23548836307
+   Total no. of reads                 :    291324614
+   Total no. of super-k-mers          :   3939074650
+Thu Jan 27 22:04:36 CET 2022
+158SUR0CCKK11
+1st stage: 243.626s
+2nd stage: 43.7309s
+Total    : 287.357s
+Tmp size : 41329MB
+
+Stats:
+   No. of k-mers below min. threshold :   2346246090
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4425688821
+   No. of unique counted k-mers       :   2079442731
+   Total no. of k-mers                :  32604757240
+   Total no. of reads                 :    402932612
+   Total no. of super-k-mers          :   5470369556
+Thu Jan 27 22:24:23 CET 2022
+163MES0CCKK11
+1st stage: 272.859s
+2nd stage: 51.3902s
+Total    : 324.249s
+Tmp size : 44840MB
+
+Stats:
+   No. of k-mers below min. threshold :   5559271401
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   9183188807
+   No. of unique counted k-mers       :   3623917406
+   Total no. of k-mers                :  35547870513
+   Total no. of reads                 :    440972758
+   Total no. of super-k-mers          :   5926825154
+Thu Jan 27 22:54:58 CET 2022
+163SUR0CCKK11
+1st stage: 200.114s
+2nd stage: 37.6392s
+Total    : 237.753s
+Tmp size : 32893MB
+
+Stats:
+   No. of k-mers below min. threshold :   2349354022
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3922749665
+   No. of unique counted k-mers       :   1573395643
+   Total no. of k-mers                :  26249762695
+   Total no. of reads                 :    324989054
+   Total no. of super-k-mers          :   4340339648
+Thu Jan 27 23:10:02 CET 2022
+168DCM0CCKK11
+1st stage: 210.974s
+2nd stage: 39.5716s
+Total    : 250.546s
+Tmp size : 34543MB
+
+Stats:
+   No. of k-mers below min. threshold :   2583506840
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4548740325
+   No. of unique counted k-mers       :   1965233485
+   Total no. of k-mers                :  27445527608
+   Total no. of reads                 :    339465160
+   Total no. of super-k-mers          :   4562884851
+Thu Jan 27 23:28:02 CET 2022
+168IZZ0CCKK11
+1st stage: 189.063s
+2nd stage: 38.1854s
+Total    : 227.249s
+Tmp size : 33223MB
+
+Stats:
+   No. of k-mers below min. threshold :   1967907357
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3704264303
+   No. of unique counted k-mers       :   1736356946
+   Total no. of k-mers                :  26176104878
+   Total no. of reads                 :    322501268
+   Total no. of super-k-mers          :   4399167483
+Thu Jan 27 23:44:23 CET 2022
+168SUR0CCKK11
+1st stage: 169.106s
+2nd stage: 36.2787s
+Total    : 205.384s
+Tmp size : 29069MB
+
+Stats:
+   No. of k-mers below min. threshold :   1316516355
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   2459622646
+   No. of unique counted k-mers       :   1143106291
+   Total no. of k-mers                :  22851313777
+   Total no. of reads                 :    281316518
+   Total no. of super-k-mers          :   3851911508
+Thu Jan 27 23:56:02 CET 2022
+173DCM0CCKK11
+1st stage: 157.135s
+2nd stage: 33.4353s
+Total    : 190.57s
+Tmp size : 27128MB
+
+Stats:
+   No. of k-mers below min. threshold :   1685286459
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3248342345
+   No. of unique counted k-mers       :   1563055886
+   Total no. of k-mers                :  21441283107
+   Total no. of reads                 :    263756272
+   Total no. of super-k-mers          :   3588978172
+Fri Jan 28 00:10:35 CET 2022
+173IZZ0CCKK11
+1st stage: 204.036s
+2nd stage: 39.9837s
+Total    : 244.019s
+Tmp size : 32679MB
+
+Stats:
+   No. of k-mers below min. threshold :   1730792733
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3398035919
+   No. of unique counted k-mers       :   1667243186
+   Total no. of k-mers                :  25850571411
+   Total no. of reads                 :    318044830
+   Total no. of super-k-mers          :   4322095180
+Fri Jan 28 00:26:35 CET 2022
+173SUR0CCKK11
+1st stage: 209.379s
+2nd stage: 39.3974s
+Total    : 248.777s
+Tmp size : 35082MB
+
+Stats:
+   No. of k-mers below min. threshold :   1375184819
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   2775423285
+   No. of unique counted k-mers       :   1400238466
+   Total no. of k-mers                :  27764792032
+   Total no. of reads                 :    342121874
+   Total no. of super-k-mers          :   4639237575
+Fri Jan 28 00:40:51 CET 2022
+175SUR0CCKK11
+1st stage: 217.604s
+2nd stage: 38.5438s
+Total    : 256.148s
+Tmp size : 36202MB
+
+Stats:
+   No. of k-mers below min. threshold :   1134149091
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   2349352149
+   No. of unique counted k-mers       :   1215203058
+   Total no. of k-mers                :  28527771924
+   Total no. of reads                 :    351574504
+   Total no. of super-k-mers          :   4793332977
+Fri Jan 28 00:53:51 CET 2022
+175ZZZ0CCKK11
+1st stage: 197.476s
+2nd stage: 37.4125s
+Total    : 234.889s
+Tmp size : 33538MB
+
+Stats:
+   No. of k-mers below min. threshold :   3933976784
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6657518723
+   No. of unique counted k-mers       :   2723541939
+   Total no. of k-mers                :  26546256997
+   Total no. of reads                 :    327623186
+   Total no. of super-k-mers          :   4434805341
+Fri Jan 28 01:17:25 CET 2022
+178SUR0CCKK11
+1st stage: 196.282s
+2nd stage: 37.9668s
+Total    : 234.249s
+Tmp size : 34357MB
+
+Stats:
+   No. of k-mers below min. threshold :   1748403165
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3303068564
+   No. of unique counted k-mers       :   1554665399
+   Total no. of k-mers                :  27214096419
+   Total no. of reads                 :    336511738
+   Total no. of super-k-mers          :   4542324657
+Fri Jan 28 01:32:36 CET 2022
+180SUR0CCKK11
+1st stage: 181.903s
+2nd stage: 38.9881s
+Total    : 220.891s
+Tmp size : 30996MB
+
+Stats:
+   No. of k-mers below min. threshold :   1971210164
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3295552729
+   No. of unique counted k-mers       :   1324342565
+   Total no. of k-mers                :  24665393264
+   Total no. of reads                 :    304256672
+   Total no. of super-k-mers          :   4092678579
+Fri Jan 28 01:45:51 CET 2022
+180ZZZ0CCKK11
+1st stage: 248.51s
+2nd stage: 43.394s
+Total    : 291.904s
+Tmp size : 38950MB
+
+Stats:
+   No. of k-mers below min. threshold :   2663821823
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4735131097
+   No. of unique counted k-mers       :   2071309274
+   Total no. of k-mers                :  30752012517
+   Total no. of reads                 :    386120244
+   Total no. of super-k-mers          :   5152961787
+Fri Jan 28 02:05:09 CET 2022
+188DCM0CCKK11
+1st stage: 204.556s
+2nd stage: 41.2752s
+Total    : 245.831s
+Tmp size : 34705MB
+
+Stats:
+   No. of k-mers below min. threshold :   1876892981
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3602055364
+   No. of unique counted k-mers       :   1725162383
+   Total no. of k-mers                :  27385001459
+   Total no. of reads                 :    338171936
+   Total no. of super-k-mers          :   4593258955
+Fri Jan 28 02:21:18 CET 2022
+188SUR0CCKK11
+1st stage: 239.864s
+2nd stage: 47.4343s
+Total    : 287.298s
+Tmp size : 41586MB
+
+Stats:
+   No. of k-mers below min. threshold :   1378132011
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   2831259156
+   No. of unique counted k-mers       :   1453127145
+   Total no. of k-mers                :  32799758643
+   Total no. of reads                 :    404391722
+   Total no. of super-k-mers          :   5504568948
+Fri Jan 28 02:36:30 CET 2022
+189DCM0CCKK11
+1st stage: 175.695s
+2nd stage: 37.131s
+Total    : 212.826s
+Tmp size : 28935MB
+
+Stats:
+   No. of k-mers below min. threshold :   1884982202
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3228785108
+   No. of unique counted k-mers       :   1343802906
+   Total no. of k-mers                :  22925667537
+   Total no. of reads                 :    282805050
+   Total no. of super-k-mers          :   3825677626
+Fri Jan 28 02:49:40 CET 2022
+189MES0CCKK11
+1st stage: 198.791s
+2nd stage: 38.1542s
+Total    : 236.945s
+Tmp size : 32939MB
+
+Stats:
+   No. of k-mers below min. threshold :   4014874818
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6736426101
+   No. of unique counted k-mers       :   2721551283
+   Total no. of k-mers                :  26026021918
+   Total no. of reads                 :    324132078
+   Total no. of super-k-mers          :   4357407109
+Fri Jan 28 03:12:45 CET 2022
+189SUR0CCKK11
+1st stage: 193.371s
+2nd stage: 39.2386s
+Total    : 232.61s
+Tmp size : 33373MB
+
+Stats:
+   No. of k-mers below min. threshold :   1716626532
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3203367886
+   No. of unique counted k-mers       :   1486741354
+   Total no. of k-mers                :  26356556451
+   Total no. of reads                 :    324346516
+   Total no. of super-k-mers          :   4416056181
+Fri Jan 28 03:27:10 CET 2022
+18DCM0CCII11
+1st stage: 227.752s
+2nd stage: 49.7314s
+Total    : 277.483s
+Tmp size : 41635MB
+
+Stats:
+   No. of k-mers below min. threshold :   2994229383
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5769259307
+   No. of unique counted k-mers       :   2775029924
+   Total no. of k-mers                :  32596525756
+   Total no. of reads                 :    408021182
+   Total no. of super-k-mers          :   5521301431
+Fri Jan 28 03:51:25 CET 2022
+18SUR0CCII11
+1st stage: 231.488s
+2nd stage: 46.2435s
+Total    : 277.732s
+Tmp size : 42124MB
+
+Stats:
+   No. of k-mers below min. threshold :   2405999119
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5256484013
+   No. of unique counted k-mers       :   2850484894
+   Total no. of k-mers                :  32937375449
+   Total no. of reads                 :    414976308
+   Total no. of super-k-mers          :   5588746068
+Fri Jan 28 04:16:30 CET 2022
+191SUR0CCKK11
+1st stage: 209.558s
+2nd stage: 41.5577s
+Total    : 251.116s
+Tmp size : 34988MB
+
+Stats:
+   No. of k-mers below min. threshold :   3679497752
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6241631913
+   No. of unique counted k-mers       :   2562134161
+   Total no. of k-mers                :  27703550144
+   Total no. of reads                 :    342014496
+   Total no. of super-k-mers          :   4625457729
+Fri Jan 28 04:38:46 CET 2022
+193SUR0CCKK11
+1st stage: 203.563s
+2nd stage: 36.7211s
+Total    : 240.284s
+Tmp size : 33191MB
+
+Stats:
+   No. of k-mers below min. threshold :   2354303673
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4115839852
+   No. of unique counted k-mers       :   1761536179
+   Total no. of k-mers                :  26287129797
+   Total no. of reads                 :    324730830
+   Total no. of super-k-mers          :   4388104032
+Fri Jan 28 04:55:24 CET 2022
+194DCM0CCKK11
+1st stage: 250.411s
+2nd stage: 42.0583s
+Total    : 292.469s
+Tmp size : 41265MB
+
+Stats:
+   No. of k-mers below min. threshold :   2092107403
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4118933790
+   No. of unique counted k-mers       :   2026826387
+   Total no. of k-mers                :  32571406156
+   Total no. of reads                 :    403570132
+   Total no. of super-k-mers          :   5460742611
+Fri Jan 28 05:14:27 CET 2022
+194SUR0CCKK11
+1st stage: 252.462s
+2nd stage: 51.2262s
+Total    : 303.689s
+Tmp size : 42904MB
+
+Stats:
+   No. of k-mers below min. threshold :   2694252725
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4967084785
+   No. of unique counted k-mers       :   2272832060
+   Total no. of k-mers                :  33920134517
+   Total no. of reads                 :    419019388
+   Total no. of super-k-mers          :   5675684659
+Fri Jan 28 05:35:47 CET 2022
+196SUR0CCKK11
+1st stage: 225.633s
+2nd stage: 43.0951s
+Total    : 268.728s
+Tmp size : 37066MB
+
+Stats:
+   No. of k-mers below min. threshold :   2099498490
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4304053713
+   No. of unique counted k-mers       :   2204555223
+   Total no. of k-mers                :  29232114355
+   Total no. of reads                 :    359981962
+   Total no. of super-k-mers          :   4906313279
+Fri Jan 28 05:56:02 CET 2022
+201DCM0CCKK11
+1st stage: 253.834s
+2nd stage: 44.1649s
+Total    : 297.999s
+Tmp size : 41708MB
+
+Stats:
+   No. of k-mers below min. threshold :   2697175764
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4487229019
+   No. of unique counted k-mers       :   1790053255
+   Total no. of k-mers                :  33084163994
+   Total no. of reads                 :    410083042
+   Total no. of super-k-mers          :   5510821560
+Fri Jan 28 06:13:48 CET 2022
+201MES0CCKK11
+1st stage: 204.23s
+2nd stage: 40.5013s
+Total    : 244.732s
+Tmp size : 33434MB
+
+Stats:
+   No. of k-mers below min. threshold :   4352719737
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6923538594
+   No. of unique counted k-mers       :   2570818857
+   Total no. of k-mers                :  26506245845
+   Total no. of reads                 :    327742496
+   Total no. of super-k-mers          :   4419302777
+Fri Jan 28 06:36:09 CET 2022
+201SUR0CCKK11
+1st stage: 291.46s
+2nd stage: 54.1724s
+Total    : 345.632s
+Tmp size : 49230MB
+
+Stats:
+   No. of k-mers below min. threshold :   2547581699
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4620488245
+   No. of unique counted k-mers       :   2072906546
+   Total no. of k-mers                :  38980678586
+   Total no. of reads                 :    482084694
+   Total no. of super-k-mers          :   6508307076
+Fri Jan 28 06:56:30 CET 2022
+205MES0CCKK11
+1st stage: 219.493s
+2nd stage: 41.7863s
+Total    : 261.28s
+Tmp size : 36914MB
+
+Stats:
+   No. of k-mers below min. threshold :   3696893015
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6378735371
+   No. of unique counted k-mers       :   2681842356
+   Total no. of k-mers                :  29182601862
+   Total no. of reads                 :    361095072
+   Total no. of super-k-mers          :   4883078502
+Fri Jan 28 07:20:12 CET 2022
+205SUR0CCKK11
+1st stage: 235.828s
+2nd stage: 41.0276s
+Total    : 276.855s
+Tmp size : 39889MB
+
+Stats:
+   No. of k-mers below min. threshold :   1563727324
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3091832290
+   No. of unique counted k-mers       :   1528104966
+   Total no. of k-mers                :  31547780239
+   Total no. of reads                 :    388341000
+   Total no. of super-k-mers          :   5275079469
+Fri Jan 28 07:35:45 CET 2022
+206MES0CCKK11
+1st stage: 233.743s
+2nd stage: 42.7198s
+Total    : 276.463s
+Tmp size : 39773MB
+
+Stats:
+   No. of k-mers below min. threshold :   3375050952
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6556667366
+   No. of unique counted k-mers       :   3181616414
+   Total no. of k-mers                :  31446417566
+   Total no. of reads                 :    387847764
+   Total no. of super-k-mers          :   5261278922
+Fri Jan 28 08:03:10 CET 2022
+206SUR0CCKK11
+1st stage: 213.446s
+2nd stage: 39.2126s
+Total    : 252.659s
+Tmp size : 36247MB
+
+Stats:
+   No. of k-mers below min. threshold :   2362818337
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4151217043
+   No. of unique counted k-mers       :   1788398706
+   Total no. of k-mers                :  28575743520
+   Total no. of reads                 :    351923732
+   Total no. of super-k-mers          :   4798427447
+Fri Jan 28 08:20:06 CET 2022
+208SUR0CCKK11
+1st stage: 211.309s
+2nd stage: 42.631s
+Total    : 253.94s
+Tmp size : 35900MB
+
+Stats:
+   No. of k-mers below min. threshold :   1349678729
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   2818308489
+   No. of unique counted k-mers       :   1468629760
+   Total no. of k-mers                :  28207982590
+   Total no. of reads                 :    347699812
+   Total no. of super-k-mers          :   4755941535
+Fri Jan 28 08:34:47 CET 2022
+209MES0CCKK11
+1st stage: 194.982s
+2nd stage: 42.3285s
+Total    : 237.311s
+Tmp size : 33121MB
+
+Stats:
+   No. of k-mers below min. threshold :   3365408711
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5828887337
+   No. of unique counted k-mers       :   2463478626
+   Total no. of k-mers                :  26151705519
+   Total no. of reads                 :    321829274
+   Total no. of super-k-mers          :   4382952780
+Fri Jan 28 08:56:19 CET 2022
+209SUR0CCKK11
+1st stage: 182.824s
+2nd stage: 41.7447s
+Total    : 224.569s
+Tmp size : 30506MB
+
+Stats:
+   No. of k-mers below min. threshold :   1930333807
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3784495169
+   No. of unique counted k-mers       :   1854161362
+   Total no. of k-mers                :  24027298811
+   Total no. of reads                 :    295539040
+   Total no. of super-k-mers          :   4039141098
+Fri Jan 28 09:13:13 CET 2022
+210MES0CCKK11
+1st stage: 186.772s
+2nd stage: 39.1281s
+Total    : 225.9s
+Tmp size : 33233MB
+
+Stats:
+   No. of k-mers below min. threshold :   4018541274
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6531475764
+   No. of unique counted k-mers       :   2512934490
+   Total no. of k-mers                :  26238861176
+   Total no. of reads                 :    323196296
+   Total no. of super-k-mers          :   4397769490
+Fri Jan 28 09:34:57 CET 2022
+210SUR0CCKK11
+1st stage: 198.89s
+2nd stage: 41.2523s
+Total    : 240.142s
+Tmp size : 33079MB
+
+Stats:
+   No. of k-mers below min. threshold :   2667689035
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4853393194
+   No. of unique counted k-mers       :   2185704159
+   Total no. of k-mers                :  26024626408
+   Total no. of reads                 :    320960112
+   Total no. of super-k-mers          :   4381457203
+Fri Jan 28 09:54:30 CET 2022
+23DCM0CCII11
+1st stage: 100.643s
+2nd stage: 22.0935s
+Total    : 122.737s
+Tmp size : 16227MB
+
+Stats:
+   No. of k-mers below min. threshold :   2017020676
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3429399304
+   No. of unique counted k-mers       :   1412378628
+   Total no. of k-mers                :  12839185485
+   Total no. of reads                 :    147400552
+   Total no. of super-k-mers          :   2146002459
+Fri Jan 28 10:06:29 CET 2022
+23SUR0CCII11
+1st stage: 103.867s
+2nd stage: 22.3187s
+Total    : 126.186s
+Tmp size : 16323MB
+
+Stats:
+   No. of k-mers below min. threshold :   2216144405
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3649301650
+   No. of unique counted k-mers       :   1433157245
+   Total no. of k-mers                :  12911028081
+   Total no. of reads                 :    149566010
+   Total no. of super-k-mers          :   2159069209
+Fri Jan 28 10:18:48 CET 2022
+25DCM0CCII11
+1st stage: 224.526s
+2nd stage: 43.5371s
+Total    : 268.063s
+Tmp size : 39249MB
+
+Stats:
+   No. of k-mers below min. threshold :   3348529082
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6288046066
+   No. of unique counted k-mers       :   2939516984
+   Total no. of k-mers                :  30856491655
+   Total no. of reads                 :    386627816
+   Total no. of super-k-mers          :   5198899105
+Fri Jan 28 10:44:15 CET 2022
+25SUR0CCII11
+1st stage: 264.675s
+2nd stage: 50.6653s
+Total    : 315.34s
+Tmp size : 46354MB
+
+Stats:
+   No. of k-mers below min. threshold :   3000511765
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6008777698
+   No. of unique counted k-mers       :   3008265933
+   Total no. of k-mers                :  36449198397
+   Total no. of reads                 :    457560422
+   Total no. of super-k-mers          :   6140721559
+Fri Jan 28 11:11:02 CET 2022
+30DCM0CCII11
+1st stage: 185.91s
+2nd stage: 42.1414s
+Total    : 228.052s
+Tmp size : 35462MB
+
+Stats:
+   No. of k-mers below min. threshold :   2080566436
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4212805843
+   No. of unique counted k-mers       :   2132239407
+   Total no. of k-mers                :  27754668821
+   Total no. of reads                 :    346837034
+   Total no. of super-k-mers          :   4704004615
+Fri Jan 28 11:29:55 CET 2022
+30SUR0CCII11
+1st stage: 292.082s
+2nd stage: 52.6131s
+Total    : 344.695s
+Tmp size : 49194MB
+
+Stats:
+   No. of k-mers below min. threshold :   2110567822
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3940841052
+   No. of unique counted k-mers       :   1830273230
+   Total no. of k-mers                :  38327461770
+   Total no. of reads                 :    478785582
+   Total no. of super-k-mers          :   6529242460
+Fri Jan 28 11:48:41 CET 2022
+31SUR1CCII11
+1st stage: 230.263s
+2nd stage: 44.0578s
+Total    : 274.321s
+Tmp size : 39508MB
+
+Stats:
+   No. of k-mers below min. threshold :   3842236493
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6786137082
+   No. of unique counted k-mers       :   2943900589
+   Total no. of k-mers                :  31024036292
+   Total no. of reads                 :    401751524
+   Total no. of super-k-mers          :   5234936548
+Fri Jan 28 12:14:07 CET 2022
+32DCM0CCII11
+1st stage: 219.084s
+2nd stage: 42.8139s
+Total    : 261.898s
+Tmp size : 39831MB
+
+Stats:
+   No. of k-mers below min. threshold :   2450340584
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6007467920
+   No. of unique counted k-mers       :   3557127336
+   Total no. of k-mers                :  31464849998
+   Total no. of reads                 :    394022740
+   Total no. of super-k-mers          :   5269080523
+Fri Jan 28 12:43:41 CET 2022
+32SUR0CCII11
+1st stage: 236.862s
+2nd stage: 46.681s
+Total    : 283.543s
+Tmp size : 40667MB
+
+Stats:
+   No. of k-mers below min. threshold :   3413446759
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6241549237
+   No. of unique counted k-mers       :   2828102478
+   Total no. of k-mers                :  31983749222
+   Total no. of reads                 :    397670070
+   Total no. of super-k-mers          :   5386139655
+Fri Jan 28 13:08:09 CET 2022
+33SUR0CCII11
+1st stage: 188.663s
+2nd stage: 33.5865s
+Total    : 222.25s
+Tmp size : 25771MB
+
+Stats:
+   No. of k-mers below min. threshold :   2403131014
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4199013554
+   No. of unique counted k-mers       :   1795882540
+   Total no. of k-mers                :  20238667461
+   Total no. of reads                 :    255070344
+   Total no. of super-k-mers          :   3414728956
+Fri Jan 28 13:24:39 CET 2022
+34DCM0CCII11
+1st stage: 241.95s
+2nd stage: 51.1958s
+Total    : 293.146s
+Tmp size : 44915MB
+
+Stats:
+   No. of k-mers below min. threshold :   5953332405
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :  10189539792
+   No. of unique counted k-mers       :   4236207387
+   Total no. of k-mers                :  35459456296
+   Total no. of reads                 :    449416158
+   Total no. of super-k-mers          :   5942827527
+Fri Jan 28 13:59:34 CET 2022
+34SUR0BBCC11
+1st stage: 134.092s
+2nd stage: 24.9881s
+Total    : 159.08s
+Tmp size : 21015MB
+
+Stats:
+   No. of k-mers below min. threshold :   1645635259
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   2848773384
+   No. of unique counted k-mers       :   1203138125
+   Total no. of k-mers                :  16625298731
+   Total no. of reads                 :    206592310
+   Total no. of super-k-mers          :   2777423523
+Fri Jan 28 14:10:49 CET 2022
+34SUR0CCII11
+1st stage: 145.346s
+2nd stage: 35.8281s
+Total    : 181.174s
+Tmp size : 24386MB
+
+Stats:
+   No. of k-mers below min. threshold :   2122875374
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3996265353
+   No. of unique counted k-mers       :   1873389979
+   Total no. of k-mers                :  19174121640
+   Total no. of reads                 :    241308424
+   Total no. of super-k-mers          :   3230245282
+Fri Jan 28 14:27:05 CET 2022
+36DCM0CCII11
+1st stage: 231.788s
+2nd stage: 45.052s
+Total    : 276.839s
+Tmp size : 40843MB
+
+Stats:
+   No. of k-mers below min. threshold :   2848349159
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5470354915
+   No. of unique counted k-mers       :   2622005756
+   Total no. of k-mers                :  32114049277
+   Total no. of reads                 :    402101650
+   Total no. of super-k-mers          :   5410180326
+Fri Jan 28 14:50:05 CET 2022
+36SUR0BBCC11
+1st stage: 31.9006s
+2nd stage: 8.23772s
+Total    : 40.1383s
+Tmp size : 4442MB
+
+Stats:
+   No. of k-mers below min. threshold :    517135495
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :    835817225
+   No. of unique counted k-mers       :    318681730
+   Total no. of k-mers                :   3519450403
+   Total no. of reads                 :     43669732
+   Total no. of super-k-mers          :    586975697
+Fri Jan 28 14:53:06 CET 2022
+36SUR0CCII11
+1st stage: 151.902s
+2nd stage: 34.4474s
+Total    : 186.35s
+Tmp size : 25621MB
+
+Stats:
+   No. of k-mers below min. threshold :   1875894935
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3608223949
+   No. of unique counted k-mers       :   1732329014
+   Total no. of k-mers                :  20147598733
+   Total no. of reads                 :    251165916
+   Total no. of super-k-mers          :   3393665707
+Fri Jan 28 15:08:33 CET 2022
+37MES00BBCC11
+1st stage: 367.032s
+2nd stage: 56.7022s
+Total    : 423.734s
+Tmp size : 52304MB
+
+Stats:
+   No. of k-mers below min. threshold :   4277182383
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   7612904989
+   No. of unique counted k-mers       :   3335722606
+   Total no. of k-mers                :  41481773441
+   Total no. of reads                 :    524636656
+   Total no. of super-k-mers          :   6910422401
+Fri Jan 28 15:39:29 CET 2022
+37MES00CCII11
+1st stage: 247.412s
+2nd stage: 42.6s
+Total    : 290.012s
+Tmp size : 40028MB
+
+Stats:
+   No. of k-mers below min. threshold :   2480423031
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5165455376
+   No. of unique counted k-mers       :   2685032345
+   Total no. of k-mers                :  31700412736
+   Total no. of reads                 :    398804218
+   Total no. of super-k-mers          :   5291021920
+Fri Jan 28 16:03:07 CET 2022
+38DCM0CCII11
+1st stage: 254.145s
+2nd stage: 46.3007s
+Total    : 300.446s
+Tmp size : 41600MB
+
+Stats:
+   No. of k-mers below min. threshold :   2982587121
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5848183827
+   No. of unique counted k-mers       :   2865596706
+   Total no. of k-mers                :  32636000687
+   Total no. of reads                 :    419686666
+   Total no. of super-k-mers          :   5512133429
+Fri Jan 28 16:28:09 CET 2022
+38MES00BBCC11
+1st stage: 96.2758s
+2nd stage: 23.4033s
+Total    : 119.679s
+Tmp size : 15646MB
+
+Stats:
+   No. of k-mers below min. threshold :   1534226606
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   2607721209
+   No. of unique counted k-mers       :   1073494603
+   Total no. of k-mers                :  12479482195
+   Total no. of reads                 :    156160074
+   Total no. of super-k-mers          :   2064126719
+Fri Jan 28 16:37:41 CET 2022
+38MES01CCII11
+1st stage: 218.368s
+2nd stage: 38.8442s
+Total    : 257.213s
+Tmp size : 34333MB
+
+Stats:
+   No. of k-mers below min. threshold :   3300487898
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5816347865
+   No. of unique counted k-mers       :   2515859967
+   Total no. of k-mers                :  27092754578
+   Total no. of reads                 :    338044892
+   Total no. of super-k-mers          :   4542551191
+Fri Jan 28 17:00:06 CET 2022
+38OMZ1CCII11
+1st stage: 158.074s
+2nd stage: 45.549s
+Total    : 203.623s
+Tmp size : 25960MB
+
+Stats:
+   No. of k-mers below min. threshold :   2009373590
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3582697680
+   No. of unique counted k-mers       :   1573324090
+   Total no. of k-mers                :  20479017215
+   Total no. of reads                 :    259991224
+   Total no. of super-k-mers          :   3435604010
+Fri Jan 28 17:14:40 CET 2022
+38SUR0BBCC11
+1st stage: 46.5697s
+2nd stage: 9.00316s
+Total    : 55.5729s
+Tmp size : 6535MB
+
+Stats:
+   No. of k-mers below min. threshold :    655791699
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   1153213338
+   No. of unique counted k-mers       :    497421639
+   Total no. of k-mers                :   5174458703
+   Total no. of reads                 :     64174416
+   Total no. of super-k-mers          :    863551158
+Fri Jan 28 17:19:10 CET 2022
+38SUR0CCII11
+1st stage: 174.13s
+2nd stage: 35.43s
+Total    : 209.56s
+Tmp size : 26573MB
+
+Stats:
+   No. of k-mers below min. threshold :   2064814521
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4289774753
+   No. of unique counted k-mers       :   2224960232
+   Total no. of k-mers                :  20897120448
+   Total no. of reads                 :    261840264
+   Total no. of super-k-mers          :   3519522500
+Fri Jan 28 17:39:29 CET 2022
+39DCM0IIQQ11
+1st stage: 237.768s
+2nd stage: 45.8084s
+Total    : 283.576s
+Tmp size : 38025MB
+
+Stats:
+   No. of k-mers below min. threshold :   9123243225
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :  13875951453
+   No. of unique counted k-mers       :   4752708228
+   Total no. of k-mers                :  30489642033
+   Total no. of reads                 :    387913058
+   Total no. of super-k-mers          :   5010108723
+Fri Jan 28 18:18:23 CET 2022
+39MES00BBCC11
+1st stage: 131.599s
+2nd stage: 68.074s
+Total    : 199.673s
+Tmp size : 18514MB
+
+Stats:
+   No. of k-mers below min. threshold :   1881954836
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3241401479
+   No. of unique counted k-mers       :   1359446643
+   Total no. of k-mers                :  14648206788
+   Total no. of reads                 :    182378482
+   Total no. of super-k-mers          :   2447688357
+Fri Jan 28 18:33:27 CET 2022
+39MES01CCII11
+1st stage: 178.48s
+2nd stage: 182.402s
+Total    : 360.882s
+Tmp size : 27576MB
+
+Stats:
+   No. of k-mers below min. threshold :   1808700895
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3486173747
+   No. of unique counted k-mers       :   1677472852
+   Total no. of k-mers                :  21784738446
+   Total no. of reads                 :    276669050
+   Total no. of super-k-mers          :   3647774914
+Fri Jan 28 18:51:49 CET 2022
+39SUR0BBCC11
+1st stage: 40.1196s
+2nd stage: 38.6035s
+Total    : 78.7231s
+Tmp size : 4626MB
+
+Stats:
+   No. of k-mers below min. threshold :    652805388
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   1084435540
+   No. of unique counted k-mers       :    431630152
+   Total no. of k-mers                :   3667858887
+   Total no. of reads                 :     45530712
+   Total no. of super-k-mers          :    611116079
+Fri Jan 28 18:56:54 CET 2022
+41DCM0CCII11
+1st stage: 299.488s
+2nd stage: 256.86s
+Total    : 556.348s
+Tmp size : 46265MB
+
+Stats:
+   No. of k-mers below min. threshold :   3124203340
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6159654457
+   No. of unique counted k-mers       :   3035451117
+   Total no. of k-mers                :  36363795925
+   Total no. of reads                 :    463399290
+   Total no. of super-k-mers          :   6127693358
+Fri Jan 28 19:28:56 CET 2022
+41SUR0BBCC11
+1st stage: 38.3023s
+2nd stage: 34.5644s
+Total    : 72.8668s
+Tmp size : 5508MB
+
+Stats:
+   No. of k-mers below min. threshold :    667436645
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   1146939297
+   No. of unique counted k-mers       :    479502652
+   Total no. of k-mers                :   4358095315
+   Total no. of reads                 :     55573142
+   Total no. of super-k-mers          :    728145799
+Fri Jan 28 19:33:57 CET 2022
+41SUR0CCII11
+1st stage: 253.569s
+2nd stage: 88.565s
+Total    : 342.134s
+Tmp size : 44752MB
+
+Stats:
+   No. of k-mers below min. threshold :   3542150379
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6671315941
+   No. of unique counted k-mers       :   3129165562
+   Total no. of k-mers                :  35099792927
+   Total no. of reads                 :    440504066
+   Total no. of super-k-mers          :   5932334973
+Fri Jan 28 20:02:13 CET 2022
+42DCM0CCII11
+1st stage: 247.354s
+2nd stage: 47.1755s
+Total    : 294.53s
+Tmp size : 42709MB
+
+Stats:
+   No. of k-mers below min. threshold :   2765232589
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5428373886
+   No. of unique counted k-mers       :   2663141297
+   Total no. of k-mers                :  33567261167
+   Total no. of reads                 :    430039794
+   Total no. of super-k-mers          :   5656505010
+Fri Jan 28 20:26:09 CET 2022
+42SUR0CCII11
+1st stage: 228.305s
+2nd stage: 44.776s
+Total    : 273.081s
+Tmp size : 40223MB
+
+Stats:
+   No. of k-mers below min. threshold :   2697218455
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5354520208
+   No. of unique counted k-mers       :   2657301753
+   Total no. of k-mers                :  31490031591
+   Total no. of reads                 :    401723064
+   Total no. of super-k-mers          :   5334705328
+Fri Jan 28 20:49:31 CET 2022
+45SUR0CCII11
+1st stage: 224.746s
+2nd stage: 47.6418s
+Total    : 272.388s
+Tmp size : 39981MB
+
+Stats:
+   No. of k-mers below min. threshold :   2697328094
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5198938560
+   No. of unique counted k-mers       :   2501610466
+   Total no. of k-mers                :  31332676632
+   Total no. of reads                 :    391038482
+   Total no. of super-k-mers          :   5301554904
+Fri Jan 28 21:11:56 CET 2022
+48SUR0BBCC11
+1st stage: 113.987s
+2nd stage: 27.1651s
+Total    : 141.152s
+Tmp size : 18224MB
+
+Stats:
+   No. of k-mers below min. threshold :   1331919654
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   2440007512
+   No. of unique counted k-mers       :   1108087858
+   Total no. of k-mers                :  14394645924
+   Total no. of reads                 :    180119244
+   Total no. of super-k-mers          :   2410040181
+Fri Jan 28 21:22:09 CET 2022
+48SUR0CCII11
+1st stage: 285.04s
+2nd stage: 56.3294s
+Total    : 341.37s
+Tmp size : 50761MB
+
+Stats:
+   No. of k-mers below min. threshold :   2566864361
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5128241669
+   No. of unique counted k-mers       :   2561377308
+   Total no. of k-mers                :  39680541155
+   Total no. of reads                 :    499292418
+   Total no. of super-k-mers          :   6735963492
+Fri Jan 28 21:46:06 CET 2022
+4DCM0CCII11
+1st stage: 299.69s
+2nd stage: 52.8246s
+Total    : 352.515s
+Tmp size : 48100MB
+
+Stats:
+   No. of k-mers below min. threshold :   2813385174
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6178870293
+   No. of unique counted k-mers       :   3365485119
+   Total no. of k-mers                :  37674213934
+   Total no. of reads                 :    476293096
+   Total no. of super-k-mers          :   6377684036
+Fri Jan 28 22:15:44 CET 2022
+4SUR1CCII11
+1st stage: 237.693s
+2nd stage: 44.8795s
+Total    : 282.572s
+Tmp size : 40945MB
+
+Stats:
+   No. of k-mers below min. threshold :   2725909117
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5446922569
+   No. of unique counted k-mers       :   2721013452
+   Total no. of k-mers                :  32089525328
+   Total no. of reads                 :    404336892
+   Total no. of super-k-mers          :   5428966280
+Fri Jan 28 22:39:56 CET 2022
+52DCM0CCII11
+1st stage: 226.073s
+2nd stage: 46.6366s
+Total    : 272.71s
+Tmp size : 39820MB
+
+Stats:
+   No. of k-mers below min. threshold :   3407204216
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6800529457
+   No. of unique counted k-mers       :   3393325241
+   Total no. of k-mers                :  31211235728
+   Total no. of reads                 :    388947166
+   Total no. of super-k-mers          :   5279388288
+Fri Jan 28 23:08:39 CET 2022
+52SUR0CCII11
+1st stage: 224.169s
+2nd stage: 46.1559s
+Total    : 270.325s
+Tmp size : 41359MB
+
+Stats:
+   No. of k-mers below min. threshold :   2703850019
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5314067863
+   No. of unique counted k-mers       :   2610217844
+   Total no. of k-mers                :  32439238450
+   Total no. of reads                 :    404567984
+   Total no. of super-k-mers          :   5482702791
+Fri Jan 28 23:31:45 CET 2022
+56MES0CCKK11
+1st stage: 264.465s
+2nd stage: 45.5959s
+Total    : 310.061s
+Tmp size : 42995MB
+
+Stats:
+   No. of k-mers below min. threshold :   5659459464
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   8890586680
+   No. of unique counted k-mers       :   3231127216
+   Total no. of k-mers                :  33941262445
+   Total no. of reads                 :    434938762
+   Total no. of super-k-mers          :   5688878581
+Fri Jan 28 23:59:40 CET 2022
+56SUR0CCKK11
+1st stage: 195.165s
+2nd stage: 41.6049s
+Total    : 236.77s
+Tmp size : 33165MB
+
+Stats:
+   No. of k-mers below min. threshold :   3921303279
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6885389587
+   No. of unique counted k-mers       :   2964086308
+   Total no. of k-mers                :  26030929734
+   Total no. of reads                 :    324775688
+   Total no. of super-k-mers          :   4395998766
+Sat Jan 29 00:24:26 CET 2022
+57SUR0CCKK11
+1st stage: 202.278s
+2nd stage: 40.9825s
+Total    : 243.261s
+Tmp size : 33006MB
+
+Stats:
+   No. of k-mers below min. threshold :   4173514225
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6812873289
+   No. of unique counted k-mers       :   2639359064
+   Total no. of k-mers                :  25914056749
+   Total no. of reads                 :    336385740
+   Total no. of super-k-mers          :   4373762838
+Sat Jan 29 00:47:14 CET 2022
+58DCM0CCKK11
+1st stage: 200.664s
+2nd stage: 40.8504s
+Total    : 241.514s
+Tmp size : 34428MB
+
+Stats:
+   No. of k-mers below min. threshold :   4256985482
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   7066891361
+   No. of unique counted k-mers       :   2809905879
+   Total no. of k-mers                :  27014298003
+   Total no. of reads                 :    337711862
+   Total no. of super-k-mers          :   4563258548
+Sat Jan 29 01:11:08 CET 2022
+62SUR0CCKK11
+1st stage: 184.33s
+2nd stage: 42.8959s
+Total    : 227.226s
+Tmp size : 29802MB
+
+Stats:
+   No. of k-mers below min. threshold :   4180035884
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6541438708
+   No. of unique counted k-mers       :   2361402824
+   Total no. of k-mers                :  23409964164
+   Total no. of reads                 :    291429494
+   Total no. of super-k-mers          :   3949295606
+Sat Jan 29 01:31:45 CET 2022
+64DCM0BBCC11
+1st stage: 140.44s
+2nd stage: 19.0676s
+Total    : 159.508s
+Tmp size : 12600MB
+
+Stats:
+   No. of k-mers below min. threshold :   2183741482
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3268512890
+   No. of unique counted k-mers       :   1084771408
+   Total no. of k-mers                :   9969418988
+   Total no. of reads                 :    124579332
+   Total no. of super-k-mers          :   1665627808
+Sat Jan 29 01:42:11 CET 2022
+64DCM0CCKK11
+1st stage: 263.475s
+2nd stage: 46.435s
+Total    : 309.91s
+Tmp size : 40860MB
+
+Stats:
+   No. of k-mers below min. threshold :   4496319325
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   8747507898
+   No. of unique counted k-mers       :   4251188573
+   Total no. of k-mers                :  32421603374
+   Total no. of reads                 :    410378996
+   Total no. of super-k-mers          :   5398664530
+Sat Jan 29 02:17:34 CET 2022
+64MES0CCKK11
+1st stage: 165.612s
+2nd stage: 32.3362s
+Total    : 197.948s
+Tmp size : 24327MB
+
+Stats:
+   No. of k-mers below min. threshold :   4336005969
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6743981219
+   No. of unique counted k-mers       :   2407975250
+   Total no. of k-mers                :  19238058413
+   Total no. of reads                 :    244932320
+   Total no. of super-k-mers          :   3217510426
+Sat Jan 29 02:37:50 CET 2022
+64SUR0CCKK11
+1st stage: 406.207s
+2nd stage: 74.1669s
+Total    : 480.374s
+Tmp size : 65273MB
+
+Stats:
+   No. of k-mers below min. threshold :   4958535156
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   9718708953
+   No. of unique counted k-mers       :   4760173797
+   Total no. of k-mers                :  51203303745
+   Total no. of reads                 :    629462328
+   Total no. of super-k-mers          :   8652975993
+Sat Jan 29 03:20:03 CET 2022
+65DCM0BBCC11
+1st stage: 114.375s
+2nd stage: 26.9867s
+Total    : 141.362s
+Tmp size : 18883MB
+
+Stats:
+   No. of k-mers below min. threshold :   2542289733
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4121750908
+   No. of unique counted k-mers       :   1579461175
+   Total no. of k-mers                :  14922723689
+   Total no. of reads                 :    186166582
+   Total no. of super-k-mers          :   2496729344
+Sat Jan 29 03:33:28 CET 2022
+65DCM0CCKK11
+1st stage: 258.798s
+2nd stage: 48.6075s
+Total    : 307.405s
+Tmp size : 42977MB
+
+Stats:
+   No. of k-mers below min. threshold :   3961753235
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   8705236887
+   No. of unique counted k-mers       :   4743483652
+   Total no. of k-mers                :  33804887430
+   Total no. of reads                 :    433566456
+   Total no. of super-k-mers          :   5692634517
+Sat Jan 29 04:11:49 CET 2022
+65MES0CCKK11
+1st stage: 265.556s
+2nd stage: 49.982s
+Total    : 315.538s
+Tmp size : 44918MB
+
+Stats:
+   No. of k-mers below min. threshold :   5657130228
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   9871309015
+   No. of unique counted k-mers       :   4214178787
+   Total no. of k-mers                :  35525933555
+   Total no. of reads                 :    446725782
+   Total no. of super-k-mers          :   5940750406
+Sat Jan 29 04:46:22 CET 2022
+65SUR0BBCC11
+1st stage: 110.735s
+2nd stage: 26.478s
+Total    : 137.213s
+Tmp size : 17808MB
+
+Stats:
+   No. of k-mers below min. threshold :   2450358940
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4022960465
+   No. of unique counted k-mers       :   1572601525
+   Total no. of k-mers                :  14071414260
+   Total no. of reads                 :    175426628
+   Total no. of super-k-mers          :   2354550232
+Sat Jan 29 04:59:46 CET 2022
+65SUR0CCKK11
+1st stage: 181.83s
+2nd stage: 35.3704s
+Total    : 217.2s
+Tmp size : 28611MB
+
+Stats:
+   No. of k-mers below min. threshold :   3499077166
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6285407014
+   No. of unique counted k-mers       :   2786329848
+   Total no. of k-mers                :  22362237786
+   Total no. of reads                 :    290200094
+   Total no. of super-k-mers          :   3796199968
+Sat Jan 29 05:22:59 CET 2022
+66DCM0CCKK11
+1st stage: 101.195s
+2nd stage: 23.9141s
+Total    : 125.109s
+Tmp size : 16096MB
+
+Stats:
+   No. of k-mers below min. threshold :   2675663886
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4498459743
+   No. of unique counted k-mers       :   1822795857
+   Total no. of k-mers                :  12648696990
+   Total no. of reads                 :    149855818
+   Total no. of super-k-mers          :   2132987884
+Sat Jan 29 05:37:47 CET 2022
+66SUR0CCKK11
+1st stage: 209.721s
+2nd stage: 41.8124s
+Total    : 251.533s
+Tmp size : 32901MB
+
+Stats:
+   No. of k-mers below min. threshold :   3801929457
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6909374250
+   No. of unique counted k-mers       :   3107444793
+   Total no. of k-mers                :  25682992481
+   Total no. of reads                 :    320731360
+   Total no. of super-k-mers          :   4367135657
+Sat Jan 29 06:03:50 CET 2022
+67SUR0CCEE11
+1st stage: 205.013s
+2nd stage: 40.0352s
+Total    : 245.048s
+Tmp size : 35534MB
+
+Stats:
+   No. of k-mers below min. threshold :   2008096902
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   3798039586
+   No. of unique counted k-mers       :   1789942684
+   Total no. of k-mers                :  27779405349
+   Total no. of reads                 :    346159392
+   Total no. of super-k-mers          :   4714940352
+Sat Jan 29 06:20:46 CET 2022
+67SUR0CCKK11
+1st stage: 103.513s
+2nd stage: 24.6364s
+Total    : 128.149s
+Tmp size : 16925MB
+
+Stats:
+   No. of k-mers below min. threshold :   2383366830
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4095369357
+   No. of unique counted k-mers       :   1712002527
+   Total no. of k-mers                :  13438562183
+   Total no. of reads                 :    157314750
+   Total no. of super-k-mers          :   2236033616
+Sat Jan 29 06:35:05 CET 2022
+67SUR0EEGG11
+1st stage: 218.637s
+2nd stage: 40.5871s
+Total    : 259.224s
+Tmp size : 35243MB
+
+Stats:
+   No. of k-mers below min. threshold :   2109721119
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4352968712
+   No. of unique counted k-mers       :   2243247593
+   Total no. of k-mers                :  27723650103
+   Total no. of reads                 :    345814570
+   Total no. of super-k-mers          :   4667635562
+Sat Jan 29 06:55:07 CET 2022
+68DCM0CCEE11
+1st stage: 213.045s
+2nd stage: 41.842s
+Total    : 254.887s
+Tmp size : 34533MB
+
+Stats:
+   No. of k-mers below min. threshold :   2339491207
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   4608831405
+   No. of unique counted k-mers       :   2269340198
+   Total no. of k-mers                :  27116492490
+   Total no. of reads                 :    339189900
+   Total no. of super-k-mers          :   4575998958
+Sat Jan 29 07:15:44 CET 2022
+68DCM0CCKK11
+1st stage: 179.113s
+2nd stage: 37.2483s
+Total    : 216.362s
+Tmp size : 26311MB
+
+Stats:
+   No. of k-mers below min. threshold :   3358266380
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   6184402353
+   No. of unique counted k-mers       :   2826135973
+   Total no. of k-mers                :  20729425018
+   Total no. of reads                 :    262743724
+   Total no. of super-k-mers          :   3482868027
+Sat Jan 29 07:39:13 CET 2022
+68DCM0EEGG11
+1st stage: 173.79s
+2nd stage: 41.0061s
+Total    : 214.796s
+Tmp size : 28562MB
+
+Stats:
+   No. of k-mers below min. threshold :   3318080692
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5771898416
+   No. of unique counted k-mers       :   2453817724
+   Total no. of k-mers                :  22437542597
+   Total no. of reads                 :    282832038
+   Total no. of super-k-mers          :   3784408525
+Sat Jan 29 08:00:29 CET 2022
+68MES0CCKK11
+1st stage: 226.409s
+2nd stage: 42.248s
+Total    : 268.657s
+Tmp size : 37914MB
+
+Stats:
+   No. of k-mers below min. threshold :   4451207841
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   7926721576
+   No. of unique counted k-mers       :   3475513735
+   Total no. of k-mers                :  29985921266
+   Total no. of reads                 :    373710956
+   Total no. of super-k-mers          :   5014541997
+Sat Jan 29 08:29:57 CET 2022
+68MES0EEGG11
+1st stage: 219.544s
+2nd stage: 40.564s
+Total    : 260.108s
+Tmp size : 35680MB
+
+Stats:
+   No. of k-mers below min. threshold :   4469701189
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   7849144562
+   No. of unique counted k-mers       :   3379443373
+   Total no. of k-mers                :  28280529911
+   Total no. of reads                 :    358228636
+   Total no. of super-k-mers          :   4715529347
+Sat Jan 29 08:58:16 CET 2022
+68SUR0CCEE11
+1st stage: 205.419s
+2nd stage: 40.8256s
+Total    : 246.245s
+Tmp size : 34720MB
+
+Stats:
+   No. of k-mers below min. threshold :   2692001837
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   5142660146
+   No. of unique counted k-mers       :   2450658309
+   Total no. of k-mers                :  27054603127
+   Total no. of reads                 :    337001120
+   Total no. of super-k-mers          :   4611719437
+Sat Jan 29 09:19:53 CET 2022
+68SUR0CCKK11
+1st stage: 203.177s
+2nd stage: 43.0406s
+Total    : 246.217s
+Tmp size : 29019MB
+
+Stats:
+   No. of k-mers below min. threshold :   4197568576
+   No. of k-mers above max. threshold :            0
+   No. of unique k-mers               :   7126297723
+   No. of unique counted k-mers       :   2928729147
+   Total no. of k-mers                :  22856780326
+   Total no. of reads                 :    294061050
+   Total no. of super-k-mers          :   3841711548
