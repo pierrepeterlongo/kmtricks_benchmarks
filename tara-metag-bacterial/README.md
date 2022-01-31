@@ -2,7 +2,7 @@ This directory synthetises the analyses and results obtained by kmtricks on Tara
 
  - descriptions about data are located in the `data` directory
  - the `validate_rescued_kmers` present scripts and commands used for generating results about the rescued kmers.
- - the `expe_kmc`,  `expe_jellyfish`, and `expe_kmtricks` directory contain several main results as well as the command lines used for the three tools.
+ - the `expe_kmc`,  `expe_jellyfish`, `expe_squeakr` and `expe_kmtricks` directory contain several main results as well as the command lines used for the three tools.
 
 
 
