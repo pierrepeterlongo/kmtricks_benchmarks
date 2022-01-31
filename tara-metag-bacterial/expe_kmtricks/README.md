@@ -23,7 +23,7 @@ We generated bloom filters composed of 4 billion bits each.
 ```bash
 kmtricks  pipeline \
   --file bact_metaG_factorized.list \
-  --run-dir kmtricks111_metag_bact_tara_with_rescue \
+  --run-dir findere_kmtricks_metag_bact_tara_with_rescue \
   --kmer-size 20 \
   --hard-min 1 \
   --mode hash:bft:bin \
@@ -46,13 +46,13 @@ kmtricks  pipeline \
 
 **Computation time**
 
-1 day, 13h, 30m. 
+23h53 minutes 
 
 **Ressources:** 
 
-disk used 2.23 TB 
+disk used 1.1 TB 
 
-max memory  43 GB
+max memory  83.4 GB
 
 ## Creation of the howDeSbt index
 
