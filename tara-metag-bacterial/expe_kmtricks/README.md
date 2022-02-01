@@ -46,36 +46,42 @@ kmtricks  pipeline \
 
 **Computation time**
 
-23h53 minutes 
+23h53  
 
-**Ressources:** 
+**Ressources** 
 
-disk used 1.1 TB 
-
-max memory  83.4 GB
+disk used: 1.1 TB 
+max memory:  83.4 GB
 
 ## Creation of the howDeSbt index
 
 ```bash
-kmtricks  index --run-dir kmtricks111_metag_bact_tara_with_rescue --cull2 --wbits 10000000:20000000 --howde
+kmtricks  index --run-dir findere_kmtricks_metag_bact_tara_with_rescue --cull2 --wbits 10000000:20000000 --howde
 ```
 **Computation time**
 
-20h, 20m. 
+20h, 49m. 
 
-**Ressources:** 
+**Ressources** 
 
-disk used 0.6 TB 
-
-max memory  165 MB
+disk used: 0.6 TB 
+max memory:  165 MB
 
 
 ## Query of the so-created index
 Querying `random_10k.fa` containing 10000 reads. All those reads come from the 64SUR0CCKK11 station.
 ```bash
-kmtricks query -run-dir ${BRIDGE_MSUB_PWD}/kmtricks110_metag_bact_tara_with_rescue --query random_10k.fa --output res_10k.txt --sort
+kmtricks query -run-dir findere_kmtricks_metag_bact_tara_with_rescue query random_10k.fa --output res_10k.txt -z 2
 ```
-Query time is 18 minutes. 
+**Compuatation time**
+
+12 minutes (for the 10000 queries)
+
+**Ressources**
+
+disk used: 0.08 GB
+max memory: 11 GB
+
 
 res_10k.txt contains for each queryied read, its number of shared kmer with each indexed dataset.
 
@@ -87,31 +93,35 @@ grep 64SUR0CCKK11 res_10k.txt | cut -d " " -f 3 | awk '{ total += $1; count++ } 
 Result: 0.996808. This means that in average 99.7% of the kmers from queried reads (from 64SUR0CCKK11) are indexed in 64SUR0CCKK11. This is normal that we do not reach 100% as some kmers are filtered during the indexation.
 
 
-* Similarity agerage with all stations:
+* Similarity average with all stations in term of number of positions covered by at least a shared kmer:
 ```
-for station in `cat bact_metaG_factorized.list | cut -d " " -f 1`; do echo -n "$station "; grep $station res_10k.txt | cut -d " " -f 3 | awk '{ total += $1; count++ } END { print total/count }'; done | sort -k 2 -n -r > res_similarity_sorted.txt
+for station in `cat bact_metaG_factorized.list | cut -d " " -f 1`; do echo -n "$station "; grep $station res_10k.txt | cut -d " " -f 4 | awk '{ total += $1; count++ } END { print total/count }'; done | sort -k 2 -n -r > res_similarity_sorted.txt
 ```
 Result:
 ```
-64SUR0CCKK11 0.996808
-64DCM0CCKK11 0.945783
-65SUR0CCKK11 0.94355
-65DCM0CCKK11 0.941493
+64SUR0CCKK11 0.999539
+64DCM0CCKK11 0.984079
+48SUR0CCII11 0.983414
+65SUR0CCKK11 0.983078
+65DCM0CCKK11 0.982879
 ...
 ```
-We find as expected 64SUR0CCKK11 as the most similar with reads from itself. Other lines enable to measure the similarity between those 10000 reads and each station.
+We find as expected 64SUR0CCKK11 as the most similar with reads from itself. Other lines enable to measure the similarity between those 10000 reads and each station. 64SUR0CCKK11 is not strickly equal to 1 as some of its kmers were wrongly filtered. 
 
 
-* Agerage number of shared kemrs with all stations:
+* Average number of shared kmers with all stations: 
 ```
-for station in `cat bact_metaG_factorized.list | cut -d " " -f 1`; do echo -n "$station "; grep $station res_10k.txt | cut -d " " -f 2 | cut -d "/" -f 1 | awk '{ total += $1; count++ } END { print total/count }'; done | sort -k 2 -n -r > res_nb_kmers_sorted.txt
+for station in `cat bact_metaG_factorized.list | cut -d " " -f 1`; do echo -n "$station "; grep $station res_10k.txt | cut -d " " -f 3 | cut -d "/" -f 1 | awk '{ total += $1; count++ } END { print total/count }'; done | sort -k 2 -n -r > res_nb_kmers_sorted.txt
 ```
 Again 64SUR0CCKK11 has the highest number of shared kmers with itself. 
 ```
 Result:
-64SUR0CCKK11 86.369
-48SUR0CCII11 82.3111
-52DCM0CCII11 82.2829
-65SUR0CCKK11 82.21
+64SUR0CCKK11 0.991061
+65SUR0CCKK11 0.914656
+64DCM0CCKK11 0.913087
+48SUR0CCII11 0.911663
+45SUR0CCII11 0.911454
 ...
 ```
+
+Results files are stored in this directory
