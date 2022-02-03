@@ -67,6 +67,9 @@ kmtricks  index --run-dir findere_kmtricks_metag_bact_tara_with_rescue --cull2 -
 disk used: 0.6 TB 
 max memory:  165 GB
 
+**Index size**
+533 GB
+
 
 ## Query of the so-created index
 Querying `random_10k.fa` containing 10000 reads. All those reads come from the 64SUR0CCKK11 station.
