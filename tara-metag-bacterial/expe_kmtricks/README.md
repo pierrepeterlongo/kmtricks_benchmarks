@@ -65,7 +65,7 @@ kmtricks  index --run-dir findere_kmtricks_metag_bact_tara_with_rescue --cull2 -
 **Ressources** 
 
 disk used: 0.6 TB 
-max memory:  165 MB
+max memory:  165 GB
 
 
 ## Query of the so-created index
