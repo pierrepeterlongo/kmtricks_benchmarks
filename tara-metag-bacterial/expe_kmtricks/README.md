@@ -27,7 +27,7 @@ kmtricks  pipeline \
   --kmer-size 20 \
   --hard-min 1 \
   --mode hash:bft:bin \
-  --soft-min upper_rare_20mer_thresholds_10_percent.txt \
+  --soft-min 0.1 \
   --share-min 1 \
   --nb-partitions 2500 \
   --focus 0.25 \
@@ -65,7 +65,10 @@ kmtricks  index --run-dir findere_kmtricks_metag_bact_tara_with_rescue --cull2 -
 **Ressources** 
 
 disk used: 0.6 TB 
-max memory:  165 MB
+max memory:  165 GB
+
+**Index size**
+533 GB
 
 
 ## Query of the so-created index
