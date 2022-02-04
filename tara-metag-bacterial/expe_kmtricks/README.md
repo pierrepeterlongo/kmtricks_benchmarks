@@ -27,7 +27,7 @@ kmtricks  pipeline \
   --kmer-size 20 \
   --hard-min 1 \
   --mode hash:bft:bin \
-  --soft-min upper_rare_20mer_thresholds_10_percent.txt \
+  --soft-min 0.1 \
   --share-min 1 \
   --nb-partitions 2500 \
   --focus 0.25 \
