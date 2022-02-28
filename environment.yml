@@ -10,7 +10,7 @@ dependencies:
   - zlib==1.2.11
   - sra-tools==2.10.8
   - parallel-fastq-dump==0.6.6
-  - kmtricks==0.0.1
+  - kmtricks==1.1.1
   - squeakr==0.6
   - mantis==0.2
   - metagraph==0.1.0
